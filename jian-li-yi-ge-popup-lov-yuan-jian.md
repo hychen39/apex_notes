@@ -8,7 +8,7 @@ Step 1. 加入 Item 至 Region
 
 Step 2. 設定 Item Type 為 Popup LOV
 
-![](<.gitbook/assets/image (4).png>)
+![](<.gitbook/assets/image (4) (1).png>)
 
 Step 3. 設定清單值的型態為 SQL Quer
 

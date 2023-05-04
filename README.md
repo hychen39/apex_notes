@@ -6,7 +6,7 @@ description: 使用 Cards List 做功能導覽
 
 想要在頁面上使用 Cards List 做功能導覽
 
-![](<.gitbook/assets/image (4) (1).png>)
+![](<.gitbook/assets/image (4) (1) (1).png>)
 
 ### 原理
 

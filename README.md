@@ -22,7 +22,7 @@ Step 2. 建立 List 內的內容。
 
 * 每個 list entry 可以設定：List Entry Label, Image/Class, 及 Target
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (2) (1).png>)
 
 Step 3. 在目的頁面中，新增一個 Region, 並設定此 Region 的屬性。
 

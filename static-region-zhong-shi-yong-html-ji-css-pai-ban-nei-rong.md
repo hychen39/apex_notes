@@ -8,4 +8,4 @@
 
 Apex 會將內容送給 Browser 渲染內容
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (2) (1).png>)

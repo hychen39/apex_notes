@@ -1,6 +1,6 @@
 ---
 description: 按下按鈕後, 顯示認對話框, 詢問是否執行動作.
-cover: .gitbook/assets/image (7).png
+cover: .gitbook/assets/image (7) (1).png
 coverY: -136
 ---
 
@@ -10,7 +10,7 @@ coverY: -136
 
 在表單輸入後，按下 (B)Create，系統提示確認對話框。
 
-![](<.gitbook/assets/image (7).png>)
+![](<.gitbook/assets/image (7) (1).png>)
 
 ## 原理
 
@@ -18,7 +18,7 @@ coverY: -136
 2. 系統執行 `apex.page.confirm()` 或者 `apex.confirm()` 顯示對話框
 3. 按下(B)OK 後，Apex 執行 form 的 `Form - Automatic Row Processing (DML)` process 將表單的欄位資料新增到表格中。&#x20;
 
-![](<.gitbook/assets/image (11).png>)
+![](<.gitbook/assets/image (11) (1).png>)
 
 4. (B)Create 的 Behavior 的 Database Action 屬性會決定做那種 DML 操作
 
@@ -54,6 +54,6 @@ javascript:apex.confirm('確定儲存？','CREATE');
 
 完成的設定
 
-![](<.gitbook/assets/image (10).png>)
+![](<.gitbook/assets/image (10) (1).png>)
 
 Step 4. 完成

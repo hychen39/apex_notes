@@ -26,7 +26,7 @@ select DEPT.DNAME as display_val,
  from DEPT DEPT
 ```
 
-![](<.gitbook/assets/image (7) (1) (1).png>)
+![](<.gitbook/assets/image (7) (1) (1) (1).png>)
 
 Step 5. 執行，便可看到 Popup LOV
 

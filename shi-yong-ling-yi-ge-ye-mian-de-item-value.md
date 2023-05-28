@@ -41,7 +41,7 @@ description: 把 item 的 value 存到 Session State 中，以進行不同頁面
 
 Step 1. 設定 Page 1 上的 Item Component 的 Maintain Session State 為 Per Session (Disk)
 
-![](<.gitbook/assets/image (11).png>)
+![](<.gitbook/assets/image (11) (1).png>)
 
 Step 2. 設定"確定"按鈕的 Behavior 為 Submit Page.&#x20;
 
@@ -53,14 +53,14 @@ Step 3. 設定 Submit page 後轉跳至 Page 2.&#x20;
 
 在提交後處理的 After Processing 階段，建立 Branch. 轉跳到 Page 2
 
-![](<.gitbook/assets/image (12).png>)
+![](<.gitbook/assets/image (12) (1).png>)
 
 Step 4. 在 Page 2 中，設定 Item Component 的資料來源為 Session State 中的 Item Value
 
 * Item 屬性為目的 item 元件的資料來源，是 page 1 的 item.&#x20;
 * Used 屬性改用 Always. 如此，當轉跳至此頁面時，便會用新的值覆寫目的 item 的 value.&#x20;
 
-![](<.gitbook/assets/image (10).png>)
+![](<.gitbook/assets/image (10) (1).png>)
 
 Step 5. 完成。
 

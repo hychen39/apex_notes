@@ -18,11 +18,11 @@ coverY: -136
 2. 系統執行 `apex.page.confirm()` 或者 `apex.confirm()` 顯示對話框
 3. 按下(B)OK 後，Apex 執行 form 的 `Form - Automatic Row Processing (DML)` process 將表單的欄位資料新增到表格中。&#x20;
 
-![](<.gitbook/assets/image (11) (1).png>)
+![](<.gitbook/assets/image (11) (1) (1).png>)
 
 4. (B)Create 的 Behavior 的 Database Action 屬性會決定做那種 DML 操作
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (2) (1).png>)
 
 ## 設定步驟
 
@@ -54,6 +54,6 @@ javascript:apex.confirm('確定儲存？','CREATE');
 
 完成的設定
 
-![](<.gitbook/assets/image (10) (1).png>)
+![](<.gitbook/assets/image (10) (1) (1).png>)
 
 Step 4. 完成

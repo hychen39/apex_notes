@@ -2,7 +2,7 @@
 
 在頁面使用  List 區域(region) 顯示清單項目(list entries), 如何修改區域內項目上的 icon 呢？
 
-![](<.gitbook/assets/image (10) (1) (1).png>)
+![](<.gitbook/assets/image (10) (1) (1) (1).png>)
 
 原理
 
@@ -19,15 +19,15 @@ Step 2. 在 List Region 的 Source > List 屬性下，找到所使用的清單�
 
 Step 3. 點選屬性右方的按鈕(>)，再點選 (B)\[Edit Component]，編輯清單內容
 
-![](<.gitbook/assets/image (8).png>)
+![](<.gitbook/assets/image (8) (1).png>)
 
 注意，所到達的頁面的路徑為  App xx > Shared Components > Lists > List Details. 所編輯的清單為先前 List Region 所使用的 List.&#x20;
 
-![](<.gitbook/assets/image (9).png>)
+![](<.gitbook/assets/image (9) (1).png>)
 
 Step 4. 點選清單項目以編輯：
 
-![](<.gitbook/assets/image (11) (1) (1).png>)
+![](<.gitbook/assets/image (11) (1) (1) (1).png>)
 
 Step 5. 設定 Image/Class 欄位，挑選合適的 icon class.
 

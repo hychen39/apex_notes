@@ -19,11 +19,11 @@ Step 2. 在 List Region 的 Source > List 屬性下，找到所使用的清單�
 
 Step 3. 點選屬性右方的按鈕(>)，再點選 (B)\[Edit Component]，編輯清單內容
 
-![](<.gitbook/assets/image (8) (1).png>)
+![](<.gitbook/assets/image (8) (1) (1).png>)
 
 注意，所到達的頁面的路徑為  App xx > Shared Components > Lists > List Details. 所編輯的清單為先前 List Region 所使用的 List.&#x20;
 
-![](<.gitbook/assets/image (9) (1).png>)
+![](<.gitbook/assets/image (9) (1) (1).png>)
 
 Step 4. 點選清單項目以編輯：
 

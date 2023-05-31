@@ -24,11 +24,11 @@ coverY: -166
 
 * 可在以 Legend 屬性區中設定是否顯示圖例(Legend)
 
-![](<.gitbook/assets/image (16).png>)
+![](<.gitbook/assets/image (16) (1).png>)
 
 2. 圖形的資料來源為 SQL Query&#x20;
 
-![](<.gitbook/assets/image (8).png>)
+![](<.gitbook/assets/image (8) (1).png>)
 
 3. 需要對應 Query Column 到 圖形元件的 Label, Value 等屬性以顯示資料。
 
@@ -41,7 +41,7 @@ coverY: -166
 先安裝 `HR Data` sample dataset.\
 Path: (M)\[SQL Workshop] > Utilities > \[Sample Datasets]
 
-![](<.gitbook/assets/image (9).png>)
+![](<.gitbook/assets/image (9) (1).png>)
 
 ### 步驟
 
@@ -59,7 +59,7 @@ S4. 啟用 Legend&#x20;
 
 * Attributes > Legend > Show = Enable
 
-![](<.gitbook/assets/image (14).png>)
+![](<.gitbook/assets/image (14) (1).png>)
 
 S5. 設定 Series 的名稱
 
@@ -80,7 +80,7 @@ order by 2;
 ```
 ````
 
-![](<.gitbook/assets/image (15).png>)
+![](<.gitbook/assets/image (15) (1).png>)
 
 S7. 設定 Query 欄位與 Chart Region 的屬性的對應
 

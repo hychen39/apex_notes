@@ -10,3 +10,4 @@
 * [使用另一個頁面的 item value](shi-yong-ling-yi-ge-ye-mian-de-item-value.md)
 * [長條圖顯示資料](chang-tiao-tu-xian-shi-zi-liao.md)
 * [將表單資料寫入資料庫](jiang-biao-dan-zi-liao-xie-ru-zi-liao-ku.md)
+* [載入頁面時，使用其它頁面的值初始化表單欄位](zai-ru-ye-mian-shi-shi-yong-qi-ta-ye-mian-de-zhi-chu-shi-hua-biao-dan-lan-wei.md)

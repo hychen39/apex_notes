@@ -47,7 +47,7 @@ Step 2. 設定"確定"按鈕的 Behavior 為 Submit Page.&#x20;
 
 如果使用 Redirect, 元件上的值不會送到 Server 端，Field value 不會存到 Session State 中。
 
-![](<.gitbook/assets/image (6).png>)
+![](<.gitbook/assets/image (6) (1).png>)
 
 Step 3. 設定 Submit page 後轉跳至 Page 2.&#x20;
 

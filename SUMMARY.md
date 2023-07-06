@@ -18,4 +18,4 @@
 
 ***
 
-* [讓 Display Only Item 顯示 LOV 的 Display Value](rang-display-only-item-xian-shi-lov-de-display-value.md)
+* [讓 Display Only Item 顯示 LOV 的 Display Value](display\_only\_item\_shows\_lov\_display\_value.md)

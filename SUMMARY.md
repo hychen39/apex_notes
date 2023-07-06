@@ -15,3 +15,7 @@
 * [將表單資料寫入資料庫](biao-dan-chu-li/jiang-biao-dan-zi-liao-xie-ru-zi-liao-ku.md)
 * [使用另一個頁面的 item value](biao-dan-chu-li/shi-yong-ling-yi-ge-ye-mian-de-item-value.md)
 * [提交頁面後，轉跳其它頁面](biao-dan-chu-li/ti-jiao-ye-mian-hou-zhuan-tiao-qi-ta-ye-mian.md)
+
+***
+
+* [讓 Display Only Item 顯示 LOV 的 Display Value](rang-display-only-item-xian-shi-lov-de-display-value.md)

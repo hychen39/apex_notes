@@ -52,7 +52,7 @@ S2. 設定此 Form Region 的 Source 屬性：
 
 S3. 設定完成後，Apex 會自動為 Table 內的每個 Column 新增相對應的 Item 到 Form Region 中。
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (2).png>)
 
 S4. 指定 Form Region 中做為 Primary Key 的 Item.&#x20;
 
@@ -60,7 +60,7 @@ S4. 指定 Form Region 中做為 Primary Key 的 Item.&#x20;
 
 S5. 新增按鈕到頁面。設定按鈕的 Behavior 相關屬性:
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (9) (2).png>)
 
 S6. 設定 Form - Automatic Row Processing (DML) 的屬性:
 

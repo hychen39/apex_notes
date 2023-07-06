@@ -8,12 +8,12 @@ Step 1. 加入 Item 至 Region
 
 Step 2. 設定 Item Type 為 Popup LOV
 
-![](<.gitbook/assets/image (4) (1) (2).png>)
+![](<../.gitbook/assets/image (4) (1) (2).png>)
 
 Step 3. 設定清單值的型態為 SQL Quer
 
 * (Property)List of Value > Type
-* ![](<.gitbook/assets/image (3) (1).png>)
+* ![](<../.gitbook/assets/image (3) (1).png>)
 
 Step 4. 在 SQL Query 中輸入查詢
 
@@ -26,15 +26,15 @@ select DEPT.DNAME as display_val,
  from DEPT DEPT
 ```
 
-![](<.gitbook/assets/image (7) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1) (1).png>)
 
 Step 5. 執行，便可看到 Popup LOV
 
-![](<.gitbook/assets/image (8) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (1) (1).png>)
 
 
 
 Step 6. 預設為 inline 顯示清單值。若想使用強制式對話框(Modal Dialog), 設定 (P)Settings > Displays 屬性。
 
-![](<.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5).png>)
 

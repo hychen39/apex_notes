@@ -4,8 +4,8 @@
 
 內容可用 HTML 標誌或者 CSS 做排版
 
-![](<.gitbook/assets/image (6) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1).png>)
 
 Apex 會將內容送給 Browser 渲染內容
 
-![](<.gitbook/assets/image (2) (1) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1).png>)

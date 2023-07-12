@@ -29,7 +29,7 @@ S1. 在 Page 4 的 Before Region 節點，新增 Process
   * Identification > Type: Execute Code
   * Source > Language: PL/SQL
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (21) (1).png>)
 
 S2. 在 Source > PL/SQL code 中輸入以下:
 

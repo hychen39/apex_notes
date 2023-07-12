@@ -1,6 +1,6 @@
 ---
 description: 使用 Chart UI 元件，以長條圖顯示資料
-cover: .gitbook/assets/image (10).png
+cover: .gitbook/assets/image (10) (1).png
 coverY: -166
 ---
 
@@ -12,7 +12,7 @@ coverY: -166
 
 城市為數列; 部門為 label; 人數為 Value
 
-![](<.gitbook/assets/image (10).png>)
+![](<.gitbook/assets/image (10) (1).png>)
 
 ## 原理
 
@@ -24,7 +24,7 @@ coverY: -166
 
 * 可在以 Legend 屬性區中設定是否顯示圖例(Legend)
 
-![](<.gitbook/assets/image (16) (1).png>)
+![](<.gitbook/assets/image (16) (1) (1).png>)
 
 2. 圖形的資料來源為 SQL Query&#x20;
 

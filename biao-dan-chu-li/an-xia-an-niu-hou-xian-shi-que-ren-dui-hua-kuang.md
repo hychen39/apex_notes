@@ -54,6 +54,6 @@ javascript:apex.confirm('確定儲存？','CREATE');
 
 完成的設定
 
-![](<../.gitbook/assets/image (10) (1) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1) (1).png>)
 
 Step 4. 完成

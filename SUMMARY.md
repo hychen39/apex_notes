@@ -1,7 +1,6 @@
 # Table of contents
 
-* [使用 API 建立 User](README.md)
-* [長條圖顯示資料](chang-tiao-tu-xian-shi-zi-liao.md)
+* [Welcome](README.md)
 
 ## 表單處理 <a href="#forms" id="forms"></a>
 
@@ -28,3 +27,8 @@
 ## 安全、身份鑑別與授權 <a href="#security" id="security"></a>
 
 * [登入時切換不同的身份鑑別方式](security/switch\_authe\_scheme.md)
+
+## 其它 <a href="#others" id="others"></a>
+
+* [使用 API 建立 User](others/shi-yong-api-jian-li-user.md)
+* [長條圖顯示資料](others/chang-tiao-tu-xian-shi-zi-liao.md)

@@ -1,18 +1,10 @@
----
-description: 使用 APEX_UTIL.CREATE_USER 程序建立 User
----
+# Welcome
 
-# 使用 API 建立 User
+## 近期文章
 
-## API 使用前的要求
+2023 July
 
-1. 需具備 Workspace Administrator 的權限
-2.  App 需啟用 Modify Workspace Repository 選項
+[switch\_authe\_scheme.md](security/switch\_authe\_scheme.md "mention")
 
-    Path: App > Shared Components > Security Attributes > Database Session
+[item\_validation.md](forms/item\_validation.md "mention")
 
-![](<.gitbook/assets/image (4) (1).png>)
-
-Youtube Demo: [Oracle Apex Create Workspace/Application User (API)](https://www.youtube.com/watch?v=FND6KHFAb4o)
-
-##

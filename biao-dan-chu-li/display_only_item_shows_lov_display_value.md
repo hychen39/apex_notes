@@ -5,7 +5,7 @@
 1. 在表單頁面，有一個 item 是 Select List type. 顯示的是 LOV 的 Display Value, 但 item 內儲存的是 Return Value.&#x20;
 2. 當轉跳到另一個頁面，讓使用者確認表單填寫資訊。該頁面使用 Display Only item 顯示資料。該如何用 Display Only item 顯示 LOV 的 Display Value 而不是 Return Value ?&#x20;
 
-![](<../.gitbook/assets/image (7).png>) ![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (7) (1).png>) ![](<../.gitbook/assets/image (22).png>)
 
 ## 原理
 
@@ -18,9 +18,9 @@
 
 此 LOV 的名稱命名為 PROID\_LIST
 
-![](<../.gitbook/assets/image (1) (2).png>)
+![](<../.gitbook/assets/image (1) (2) (1).png>)
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (21) (1).png>)
 
 ## 步驟
 

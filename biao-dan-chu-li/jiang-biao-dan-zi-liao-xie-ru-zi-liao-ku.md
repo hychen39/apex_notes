@@ -36,7 +36,7 @@ Form Region 的資料來源為 Table。
 
 * 表格 `HY_DIS_RESERVATIONS`
 
-![](<../.gitbook/assets/image (16) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1).png>)
 
 2. 建立空白頁面
 
@@ -48,7 +48,7 @@ S2. 設定此 Form Region 的 Source 屬性：
 
 * Table Name 為目的表格名稱 `HY_DIS_RESERVATIONS`
 
-![](<../.gitbook/assets/image (17) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1).png>)
 
 S3. 設定完成後，Apex 會自動為 Table 內的每個 Column 新增相對應的 Item 到 Form Region 中。
 

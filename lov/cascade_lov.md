@@ -74,7 +74,7 @@ commit;
 
 S1 在頁面中新增兩個 item, 型態皆為 Select List&#x20;
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 S2 設定第一個 Select List item 的 List of Values 屬性:
 
@@ -87,7 +87,7 @@ select TIME_LABEL as disp_val,
  from HY_TIME_PERIOD
 ```
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 S3 設定第二個 Select List item 的 List of Values 屬性:
 
@@ -108,13 +108,13 @@ S4  設定第二個 Select List item 的 Cascading List of Values 屬性:
 * Parent Items(s) 指決定第二個 item 的 LOV 的父 item, 設成  `:P6_START_TIME`
 * Item to Submit: 在更新第二個 item 的的 LOV 值時所要參考的資料，必須從前端送到後端。所以，`:P6_START_TIME`的值必須提交到後端。
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (1).png>)
 
 S5 測試
 
 起始時間選 08:00, 結束時間的 LOV 的清單值只顯示近兩個小時:
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 S6 完成
 

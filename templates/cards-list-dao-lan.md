@@ -29,7 +29,7 @@ Step 3. 在目的頁面中，新增一個 Region, 並設定此 Region 的屬性�
 * Type: List
 * Attributes > Apperrance > List Template: Cards
 
-![](<../.gitbook/assets/image (3) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 Step 4. 設定 Template Options.&#x20;
 

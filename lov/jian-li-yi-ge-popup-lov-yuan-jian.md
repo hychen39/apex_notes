@@ -13,7 +13,7 @@ Step 2. 設定 Item Type 為 Popup LOV
 Step 3. 設定清單值的型態為 SQL Quer
 
 * (Property)List of Value > Type
-* ![](<../.gitbook/assets/image (3) (1).png>)
+* ![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 Step 4. 在 SQL Query 中輸入查詢
 

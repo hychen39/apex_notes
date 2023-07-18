@@ -47,7 +47,7 @@ Step 2. 設定"確定"按鈕的 Behavior 為 Submit Page.&#x20;
 
 如果使用 Redirect, 元件上的值不會送到 Server 端，Field value 不會存到 Session State 中。
 
-![](<../.gitbook/assets/image (6) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (2).png>)
 
 Step 3. 設定 Submit page 後轉跳至 Page 2.&#x20;
 
@@ -60,7 +60,7 @@ Step 4. 在 Page 2 中，設定 Item Component 的資料來源為 Session State 
 * Item 屬性為目的 item 元件的資料來源，是 page 1 的 item.&#x20;
 * Used 屬性改用 Always. 如此，當轉跳至此頁面時，便會用新的值覆寫目的 item 的 value.&#x20;
 
-![](<../.gitbook/assets/image (10) (1) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1) (1).png>)
 
 Step 5. 完成。
 

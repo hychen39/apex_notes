@@ -1,6 +1,6 @@
 ---
 description: 按下按鈕後, 顯示認對話框, 詢問是否執行動作.
-cover: ../.gitbook/assets/image (7) (1).png
+cover: ../.gitbook/assets/image (7) (1) (2).png
 coverY: -136
 ---
 
@@ -10,7 +10,7 @@ coverY: -136
 
 在表單輸入後，按下 (B)Create，系統提示確認對話框。
 
-![](<../.gitbook/assets/image (7) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (2).png>)
 
 ## 原理
 
@@ -54,6 +54,6 @@ javascript:apex.confirm('確定儲存？','CREATE');
 
 完成的設定
 
-![](<../.gitbook/assets/image (10) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1) (1) (1).png>)
 
 Step 4. 完成

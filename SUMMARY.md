@@ -11,6 +11,7 @@
 * [提交頁面後，轉跳其它頁面](biao-dan-chu-li/ti-jiao-ye-mian-hou-zhuan-tiao-qi-ta-ye-mian.md)
 * [按下按鈕後, 顯示確認對話框](biao-dan-chu-li/an-xia-an-niu-hou-xian-shi-que-ren-dui-hua-kuang.md)
 * [讓 Display Only Item 顯示 LOV 的 Display Value](biao-dan-chu-li/display\_only\_item\_shows\_lov\_display\_value.md)
+* [表單欄位檢查: 時間最多 2 小時](biao-dan-chu-li/biao-dan-lan-wei-jian-cha-shi-jian-zui-duo-2-xiao-shi.md)
 
 ## List of Values (LOV) <a href="#lov" id="lov"></a>
 

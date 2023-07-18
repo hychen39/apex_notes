@@ -2,7 +2,7 @@
 
 在頁面使用  List 區域(region) 顯示清單項目(list entries), 如何修改區域內項目上的 icon 呢？
 
-![](<../.gitbook/assets/image (10) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png>)
 
 原理
 

@@ -8,7 +8,7 @@ description: 載入頁面時，取得其它頁面的值，用它們來初始化�
 
 在 render page 前，執行 PL/SQL 程式，從 Session State 取得其它頁面的 item 的值。之後，將這些值指派到目的頁面的欄位。
 
-![](<../.gitbook/assets/image (20) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1).png>)
 
 ## User Story
 
@@ -29,7 +29,7 @@ S1. 在 Page 4 的 Before Region 節點，新增 Process
   * Identification > Type: Execute Code
   * Source > Language: PL/SQL
 
-![](<../.gitbook/assets/image (21) (1) (1).png>)
+![](<../.gitbook/assets/image (21) (1) (1) (1).png>)
 
 S2. 在 Source > PL/SQL code 中輸入以下:
 

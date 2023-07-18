@@ -37,7 +37,7 @@ description: 有開始和結束時間兩個欄位。這兩個欄位決定的時�
 
 S1 在表單上建立開始與結束時間 2 個 LOV 欄位。
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (19) (1).png>)
 
 S2 這兩個 LOV 欄位的 List of Values 的來源為 Shared Component.
 
@@ -63,7 +63,7 @@ S4 接著設定檢查的邏輯
 
 算式運算的結果為 TRUE or FALSE.&#x20;
 
-![](<../.gitbook/assets/image (23).png>)
+![](<../.gitbook/assets/image (23) (1).png>)
 
 ![](<../.gitbook/assets/image (1).png>)
 
@@ -80,12 +80,12 @@ S6 在表單中增加一個 Region. 設定 Appearance > Template 屬性時用 Bu
 
 ![](<../.gitbook/assets/image (6).png>)
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (20) (1).png>)
 
 此外，在此 Region 中新增一個 Button, 以便提交表單. Button 的 Behavior > Action 設為 Submit Page.
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (24) (1).png>)
 
 S7 測試。若時間間隔超過 2 小時，會在錯誤欄位下方及右上方顯示錯誤訊息。
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (21) (1).png>)

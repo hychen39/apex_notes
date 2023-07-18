@@ -24,3 +24,7 @@
 * [Cards List  導覽](templates/cards-list-dao-lan.md)
 * [修改 Card List 的 ICON](templates/xiu-gai-card-list-de-icon.md)
 * [Static Region 中使用 HTML 及 CSS 排版內容](templates/static-region-zhong-shi-yong-html-ji-css-pai-ban-nei-rong.md)
+
+## 安全、身份鑑別與授權 <a href="#security" id="security"></a>
+
+* [登入時切換不同的身份鑑別方式](security/switch\_authe\_scheme.md)

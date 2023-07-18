@@ -20,7 +20,7 @@
 
 ![](<../.gitbook/assets/image (1) (2) (1).png>)
 
-![](<../.gitbook/assets/image (21) (1).png>)
+![](<../.gitbook/assets/image (21) (1) (1).png>)
 
 ## 步驟
 

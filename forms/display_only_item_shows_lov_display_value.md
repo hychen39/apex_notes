@@ -18,7 +18,7 @@
 
 此 LOV 的名稱命名為 PROID\_LIST
 
-![](<../.gitbook/assets/image (1) (2) (1).png>)
+![](<../.gitbook/assets/image (1) (2) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (21) (1) (1).png>)
 

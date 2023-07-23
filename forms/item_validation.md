@@ -65,7 +65,7 @@ S4 接著設定檢查的邏輯
 
 ![](<../.gitbook/assets/image (23) (1).png>)
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 S5 設定錯誤訊息內容及顯示位置
 

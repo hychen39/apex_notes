@@ -74,7 +74,7 @@ commit;
 
 S1 在頁面中新增兩個 item, 型態皆為 Select List&#x20;
 
-![](<../.gitbook/assets/image (1) (2).png>)
+![](<../.gitbook/assets/image (1) (2) (1).png>)
 
 S2 設定第一個 Select List item 的 List of Values 屬性:
 

@@ -80,7 +80,7 @@ S5 測試.&#x20;
 
 ![](<../.gitbook/assets/image (19).png>)
 
-![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (25) (1).png>)
 
 ![](<../.gitbook/assets/image (28).png>)
 

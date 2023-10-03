@@ -122,3 +122,8 @@ apex_authentication.logout(:SESSION, :APP_ID);
    ![](<../.gitbook/assets/image (35).png>)
 4. 成功登入後，轉挑到 Page 1. \
    ![](<../.gitbook/assets/image (36).png>)
+
+{% hint style="info" %}
+2023/10/03 released
+{% endhint %}
+

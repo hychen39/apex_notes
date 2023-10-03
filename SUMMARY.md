@@ -27,6 +27,7 @@
 ## 安全、身份鑑別與授權 <a href="#security" id="security"></a>
 
 * [登入時切換不同的身份鑑別方式](security/switch\_authe\_scheme.md)
+* [😁 登入後，切換另一種身份鑑別方式](security/switch\_auth\_after\_login.md)
 
 ## 其它 <a href="#others" id="others"></a>
 

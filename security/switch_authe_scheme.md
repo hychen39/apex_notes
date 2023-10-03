@@ -28,8 +28,9 @@ App 中有多種的身份鑑別方式。
 
 ![](<../.gitbook/assets/image (29).png>)
 
-切換到另一個 auth scheme 要具備三個條件:
+切換到另一個 auth scheme 要具備四個條件:
 
+* 尚未經過身份鑑別。一但使用某種身份鑑別機制，之要再切換到另一種，需要先登出之後再鑑別。
 * 目的頁面為 private (Requiring Authentication)
 * 該 auth scheme 允許 `Switch in Session`
 * Redirect 到目的頁面時，使用  `APEX_AUTHENTICATION` 請求參數(request parameter)指定要使用的非預設鑑別方式。

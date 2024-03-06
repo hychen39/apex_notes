@@ -8,6 +8,12 @@ coverY: -6
 
 ## 近期文章
 
+2024 February&#x20;
+
+{% content-ref url="navi/navigation_menu.md" %}
+[navigation\_menu.md](navi/navigation\_menu.md)
+{% endcontent-ref %}
+
 2023 October
 
 {% content-ref url="security/switch_auth_after_login.md" %}

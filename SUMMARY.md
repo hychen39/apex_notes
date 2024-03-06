@@ -2,6 +2,10 @@
 
 * [Welcome](README.md)
 
+## 導覽 <a href="#navi" id="navi"></a>
+
+* [導覽列 Navigation Menu 的設定](navi/navigation\_menu.md)
+
 ## 表單處理 <a href="#forms" id="forms"></a>
 
 * [載入頁面時，使用其它頁面的值初始化表單欄位](forms/zai-ru-ye-mian-shi-shi-yong-qi-ta-ye-mian-de-zhi-chu-shi-hua-biao-dan-lan-wei.md)

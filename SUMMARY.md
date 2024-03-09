@@ -42,4 +42,4 @@
 
 ## 報表 <a href="#reports" id="reports"></a>
 
-* [Faceted Search 分面搜尋](reports/faceted-search-fen-mian-sou-xun.md)
+* [Faceted Search 分面搜尋](reports/faceted\_search.md)

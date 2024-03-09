@@ -8,7 +8,13 @@ coverY: -6
 
 ## 近期文章
 
-2024 February&#x20;
+2024 March
+
+{% content-ref url="reports/faceted_search.md" %}
+[faceted\_search.md](reports/faceted\_search.md)
+{% endcontent-ref %}
+
+2024 February
 
 {% content-ref url="navi/navigation_menu.md" %}
 [navigation\_menu.md](navi/navigation\_menu.md)

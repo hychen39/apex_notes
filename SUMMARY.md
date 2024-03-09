@@ -11,6 +11,7 @@
 ## 報表 <a href="#reports" id="reports"></a>
 
 * [Faceted Search 分面搜尋](reports/faceted\_search.md)
+* [圖卡顯示搜㝷結果](reports/cards-region.md)
 
 ## 表單處理 <a href="#forms" id="forms"></a>
 

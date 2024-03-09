@@ -39,3 +39,7 @@
 * [長條圖顯示資料](others/chang-tiao-tu-xian-shi-zi-liao.md)
 * [修改不同語系下的內建文字訊息](others/xiu-gai-bu-tong-yu-xi-xia-de-nei-jian-wen-zi-xun-xi.md)
 * [Quick SQL Example](others/quick-sql-example.md)
+
+## 報表 <a href="#reports" id="reports"></a>
+
+* [Faceted Search 分面搜尋](reports/faceted-search-fen-mian-sou-xun.md)

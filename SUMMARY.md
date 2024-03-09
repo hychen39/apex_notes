@@ -24,7 +24,7 @@
 
 ## Template, Layout and CSS <a href="#templates" id="templates"></a>
 
-* [Cards List  導覽](templates/cards-list-dao-lan.md)
+* [Cards List 導覽](<README (1).md>)
 * [修改 Card List 的 ICON](templates/xiu-gai-card-list-de-icon.md)
 * [Static Region 中使用 HTML 及 CSS 排版內容](templates/static-region-zhong-shi-yong-html-ji-css-pai-ban-nei-rong.md)
 

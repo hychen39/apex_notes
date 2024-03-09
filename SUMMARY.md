@@ -5,8 +5,8 @@
 ## 導覽 <a href="#navi" id="navi"></a>
 
 * [導覽列 Navigation Menu 的設定](navi/navigation\_menu.md)
-* [Cards List 導覽](navi/card-list-nav/README.md)
-  * [修改 Card List 的 ICON](navi/card-list-nav/change-icons.md)
+* [Cards List 導覽](navi/card-list-nav.md)
+* [修改 Card List 的 ICON](navi/change-icons.md)
 
 ## 表單處理 <a href="#forms" id="forms"></a>
 

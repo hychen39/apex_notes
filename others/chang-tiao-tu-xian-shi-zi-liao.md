@@ -1,6 +1,6 @@
 ---
 description: 使用 Chart UI 元件，以長條圖顯示資料
-cover: ../.gitbook/assets/image (10) (1) (1).png
+cover: ../.gitbook/assets/image (52).png
 coverY: -166
 ---
 
@@ -12,7 +12,7 @@ coverY: -166
 
 城市為數列; 部門為 label; 人數為 Value
 
-![](<../.gitbook/assets/image (10) (1) (1).png>)
+![](<../.gitbook/assets/image (52).png>)
 
 ## 原理
 
@@ -20,19 +20,19 @@ coverY: -166
 
 * 在 Chart Region 的 Attributes 中可以選擇圖形的型態，例如 bar, line 等。
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 * 可在以 Legend 屬性區中設定是否顯示圖例(Legend)
 
-![](<../.gitbook/assets/image (16) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (84).png>)
 
 2. 圖形的資料來源為 SQL Query&#x20;
 
-![](<../.gitbook/assets/image (8) (1).png>)
+![](<../.gitbook/assets/image (49).png>)
 
 3. 需要對應 Query Column 到 圖形元件的 Label, Value 等屬性以顯示資料。
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (16).png>)
 
 ## 程序
 
@@ -41,7 +41,7 @@ coverY: -166
 先安裝 `HR Data` sample dataset.\
 Path: (M)\[SQL Workshop] > Utilities > \[Sample Datasets]
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](<../.gitbook/assets/image (11).png>)
 
 ### 步驟
 
@@ -53,13 +53,13 @@ S3. 設定 Region 的圖形型態
 
 * Attributes > Chart > Type = Bar
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (17).png>)
 
 S4. 啟用 Legend&#x20;
 
 * Attributes > Legend > Show = Enable
 
-![](<../.gitbook/assets/image (14) (1).png>)
+![](<../.gitbook/assets/image (68).png>)
 
 S5. 設定 Series 的名稱
 
@@ -80,11 +80,11 @@ order by 2;
 ```
 ````
 
-![](<../.gitbook/assets/image (15) (1).png>)
+![](<../.gitbook/assets/image (32).png>)
 
 S7. 設定 Query 欄位與 Chart Region 的屬性的對應
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (13).png>)
 
 S8. 完成
 

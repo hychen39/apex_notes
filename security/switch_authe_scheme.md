@@ -12,11 +12,11 @@ coverY: 165.275
 
 在首頁提供 Google Login 的按鈕，
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (51).png>)
 
 或者在 Login page 提供
 
-![](<../.gitbook/assets/image (27).png>)
+![](<../.gitbook/assets/image (74).png>)
 
 ## 原理
 
@@ -26,7 +26,7 @@ App 中有多種的身份鑑別方式。
 
 例如，App 的預設身份鑑別方式為 Apex Express Account. 但若按下 Google Login 按鈕時，要切換到 Google\_Auth 方式。
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (78).png>)
 
 切換到另一個 auth scheme 要具備四個條件:
 
@@ -41,7 +41,7 @@ App 完成 Google Login 的 Authentication Scheme 的設定。[請參考 Apex �
 
 假設目前有兩個 Authentication Scheme: `Apex` (default) 及 `Google_Auth`:
 
-![](<../.gitbook/assets/image (23).png>)
+![](<../.gitbook/assets/image (50).png>)
 
 ## 步驟
 
@@ -49,7 +49,7 @@ S1 建立一個空白 page (page 3)，確認其 Security > Authentication 屬性
 
 S2 在 page 的 Before Header 執行點，新增一 Branch，轉跳到 App 的首頁(例如 page 1)
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (81).png>)
 
 S3 啟用 `Google_Auth scheme` 的 `Switch in Session` 屬性
 
@@ -57,11 +57,11 @@ S3 啟用 `Google_Auth scheme` 的 `Switch in Session` 屬性
 
 設定 Login Processing > Switch in Session 為 Enabled
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (46).png>)
 
 點擊 ? 有詳細的說明:
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (40).png>)
 
 S4 在 App Home page (page 1) 新增一個按鈕，提供 Google account login.
 
@@ -69,7 +69,7 @@ S4 在 App Home page (page 1) 新增一個按鈕，提供 Google account login.
 
 轉跳時要設定請求參數 `APEX_AUTHENTICATION=Google_Auth`.&#x20;
 
-![](<../.gitbook/assets/image (26).png>)
+![](<../.gitbook/assets/image (69).png>)
 
 S5 測試.&#x20;
 
@@ -79,9 +79,9 @@ S5 測試.&#x20;
 
 成功後，轉到 Page 3. Page 3 載入時會再轉跳到 Page 1.&#x20;
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (36).png>)
 
-![](<../.gitbook/assets/image (25) (1).png>)
+![](<../.gitbook/assets/image (67).png>)
 
-![](<../.gitbook/assets/image (28).png>)
+![](<../.gitbook/assets/image (77).png>)
 

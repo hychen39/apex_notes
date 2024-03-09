@@ -37,19 +37,19 @@ description: 有開始和結束時間兩個欄位。這兩個欄位決定的時�
 
 S1 在表單上建立開始與結束時間 2 個 LOV 欄位。
 
-![](<../.gitbook/assets/image (19) (1).png>)
+![](<../.gitbook/assets/image (58).png>)
 
 S2 這兩個 LOV 欄位的 List of Values 的來源為 Shared Component.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (4).png>)
 
 HY\_PERIOD\_LIST 內的 Query 如下:
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (10).png>)
 
 S3 在 P6\_END\_TIME\_1 欄位新增一個 Validation.
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (27).png>)
 
 S4 接著設定檢查的邏輯
 
@@ -63,29 +63,29 @@ S4 接著設定檢查的邏輯
 
 算式運算的結果為 TRUE or FALSE.&#x20;
 
-![](<../.gitbook/assets/image (23) (1).png>)
+![](<../.gitbook/assets/image (65).png>)
 
-![](<../.gitbook/assets/image (1) (2).png>)
+![](<../.gitbook/assets/image (9).png>)
 
 S5 設定錯誤訊息內容及顯示位置
 
 Display Location 屬性選擇 Inline with Field and in Notification. \
 錯誤訊息會顯示在兩個地方，一個為關聯欄位(Associated Item) 下方，另一個為右上方的通知區域。
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (33).png>)
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (18).png>)
 
 S6 在表單中增加一個 Region. 設定 Appearance > Template 屬性時用 Buttons Container.
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (15).png>)
 
-![](<../.gitbook/assets/image (20) (1).png>)
+![](<../.gitbook/assets/image (61).png>)
 
 此外，在此 Region 中新增一個 Button, 以便提交表單. Button 的 Behavior > Action 設為 Submit Page.
 
-![](<../.gitbook/assets/image (24) (1).png>)
+![](<../.gitbook/assets/image (87).png>)
 
 S7 測試。若時間間隔超過 2 小時，會在錯誤欄位下方及右上方顯示錯誤訊息。
 
-![](<../.gitbook/assets/image (21) (1).png>)
+![](<../.gitbook/assets/image (63).png>)

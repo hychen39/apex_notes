@@ -11,7 +11,7 @@ description: 使用 APEX_UTIL.CREATE_USER 程序建立 User
 
     Path: App > Shared Components > Security Attributes > Database Session
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (12).png>)
 
 Youtube Demo: [Oracle Apex Create Workspace/Application User (API)](https://www.youtube.com/watch?v=FND6KHFAb4o)
 

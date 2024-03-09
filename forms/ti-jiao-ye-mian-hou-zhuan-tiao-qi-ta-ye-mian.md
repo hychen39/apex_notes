@@ -6,4 +6,4 @@
 
 在 Branch 中指定要轉跳的目的頁面。
 
-![](<../.gitbook/assets/image (19) (1) (1).png>)
+![](<../.gitbook/assets/image (76).png>)

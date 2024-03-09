@@ -5,6 +5,8 @@
 ## 導覽 <a href="#navi" id="navi"></a>
 
 * [導覽列 Navigation Menu 的設定](navi/navigation\_menu.md)
+* [Cards List 導覽](navi/card-list-nav/README.md)
+  * [修改 Card List 的 ICON](navi/card-list-nav/change-icons.md)
 
 ## 表單處理 <a href="#forms" id="forms"></a>
 
@@ -24,8 +26,6 @@
 
 ## Template, Layout and CSS <a href="#templates" id="templates"></a>
 
-* [Cards List 導覽](<README (1).md>)
-* [修改 Card List 的 ICON](templates/xiu-gai-card-list-de-icon.md)
 * [Static Region 中使用 HTML 及 CSS 排版內容](templates/static-region-zhong-shi-yong-html-ji-css-pai-ban-nei-rong.md)
 
 ## 安全、身份鑑別與授權 <a href="#security" id="security"></a>

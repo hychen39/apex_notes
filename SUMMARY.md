@@ -15,6 +15,7 @@
 
 ## 表單處理 <a href="#forms" id="forms"></a>
 
+* [依選項值動態的顯示或隱藏欄位](lov/hide\_show\_fields\_dynamic\_action.md)
 * [載入頁面時，使用其它頁面的值初始化表單欄位](forms/zai-ru-ye-mian-shi-shi-yong-qi-ta-ye-mian-de-zhi-chu-shi-hua-biao-dan-lan-wei.md)
 * [將表單資料寫入資料庫](forms/jiang-biao-dan-zi-liao-xie-ru-zi-liao-ku.md)
 * [使用另一個頁面的 item value](forms/shi-yong-ling-yi-ge-ye-mian-de-item-value.md)
@@ -28,7 +29,6 @@
 * [值清單 (List of Value)元件介紹](lov/zhi-qing-dan-list-of-value-yuan-jian-jie-shao.md)
 * [建立一個 Popup LOV 元件](lov/jian-li-yi-ge-popup-lov-yuan-jian.md)
 * [串接 LOV](lov/cascade\_lov.md)
-* [依選項值動態的顯示或隱藏欄位](lov/hide\_show\_fields\_dynamic\_action.md)
 
 ## Template, Layout and CSS <a href="#templates" id="templates"></a>
 

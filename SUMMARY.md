@@ -28,6 +28,7 @@
 * [值清單 (List of Value)元件介紹](lov/zhi-qing-dan-list-of-value-yuan-jian-jie-shao.md)
 * [建立一個 Popup LOV 元件](lov/jian-li-yi-ge-popup-lov-yuan-jian.md)
 * [串接 LOV](lov/cascade\_lov.md)
+* [依選項值動態的顯示或隱藏欄位](lov/hide\_show\_fields\_dynamic\_action.md)
 
 ## Template, Layout and CSS <a href="#templates" id="templates"></a>
 

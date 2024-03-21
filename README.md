@@ -1,4 +1,5 @@
 ---
+description: Oracle Apex 的技術講義。
 cover: >-
   https://images.unsplash.com/photo-1550399504-8953e1a6ac87?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHxiZWFjaCUyMHJlbGF4fGVufDB8fHx8MTY5NjM0Mzg4OHww&ixlib=rb-4.0.3&q=85
 coverY: -6
@@ -9,6 +10,10 @@ coverY: -6
 ## 近期文章
 
 2024 March
+
+{% content-ref url="forms/hide_show_fields_dynamic_action.md" %}
+[hide\_show\_fields\_dynamic\_action.md](forms/hide\_show\_fields\_dynamic\_action.md)
+{% endcontent-ref %}
 
 {% content-ref url="reports/cards-region.md" %}
 [cards-region.md](reports/cards-region.md)
@@ -43,7 +48,5 @@ coverY: -6
 [switch\_authe\_scheme.md](security/switch\_authe\_scheme.md "mention")
 
 [item\_validation.md](forms/item\_validation.md "mention")
-
-
 
 [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/hychen39)

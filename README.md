@@ -9,7 +9,13 @@ coverY: -6
 
 ## 近期文章
 
-### 2024 April :tada:
+### 2024 May :tada::clap:
+
+{% content-ref url="reports/fine-tune-faceted-search.md" %}
+[fine-tune-faceted-search.md](reports/fine-tune-faceted-search.md)
+{% endcontent-ref %}
+
+### 2024 April&#x20;
 
 {% content-ref url="other-ui-custom/card-region-multi-images.md" %}
 [card-region-multi-images.md](other-ui-custom/card-region-multi-images.md)

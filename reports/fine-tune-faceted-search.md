@@ -24,6 +24,8 @@ Search Result 允許是: Classic Report 或者 Card Region.
 
 ![](img/24-05-10-16-38-25.png)
 
+## 新增 Facet 欄位
+
 那 Facet 欄位如何設定呢？在 Faceted Search region 的 Facets 節點下新增一個 Facet 欄位。
 
 ![](img/24-05-10-16-40-37.png)

@@ -25,7 +25,7 @@
 * [讓 Display Only Item 顯示 LOV 的 Display Value](forms/display\_only\_item\_shows\_lov\_display\_value.md)
 * [表單欄位檢查: 時間最多 2 小時](forms/item\_validation.md)
 * [Date Picker 限制可選擇的日期](forms/date-picker-select-specific-days-only.md)
-* [一次上傳多張圖片](forms/yi-ci-shang-chuan-duo-zhang-tu-pian.md)
+* [一次上傳多張圖片](forms/upload-multiple-ima.md)
 
 ## 值清單 (List of Values, LOV) <a href="#lov" id="lov"></a>
 

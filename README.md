@@ -9,7 +9,13 @@ coverY: -6
 
 ## 近期文章
 
-### 2024 May :tada::clap:
+### 2024 Jun :tada::clap:
+
+{% content-ref url="forms/upload-multiple-ima.md" %}
+[upload-multiple-ima.md](forms/upload-multiple-ima.md)
+{% endcontent-ref %}
+
+### 2024 May&#x20;
 
 {% content-ref url="reports/fine-tune-faceted-search.md" %}
 [fine-tune-faceted-search.md](reports/fine-tune-faceted-search.md)

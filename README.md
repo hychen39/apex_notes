@@ -11,6 +11,10 @@ coverY: -6
 
 ### 2024 Jun :tada::clap:
 
+{% content-ref url="reports/search-page.md" %}
+[search-page.md](reports/search-page.md)
+{% endcontent-ref %}
+
 {% content-ref url="forms/upload-multiple-ima.md" %}
 [upload-multiple-ima.md](forms/upload-multiple-ima.md)
 {% endcontent-ref %}

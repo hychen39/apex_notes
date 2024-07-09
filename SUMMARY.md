@@ -53,3 +53,7 @@
 ## 其它 UI 客製 <a href="#other-ui-custom" id="other-ui-custom"></a>
 
 * [在 Card Region 顯示多張圖片](other-ui-custom/card-region-multi-images.md)
+
+## RESTful Service <a href="#rest" id="rest"></a>
+
+* [Upload an image to a RESTful endpoint and return the URL](rest/upload-an-image-to-a-restful-endpoint-and-return-the-url.md)

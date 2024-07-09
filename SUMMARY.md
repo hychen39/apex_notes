@@ -43,6 +43,10 @@
 * [登入時切換不同的身份鑑別方式](security/switch\_authe\_scheme.md)
 * [😁 登入後，切換另一種身份鑑別方式](security/switch\_auth\_after\_login.md)
 
+## RESTful Service <a href="#rest" id="rest"></a>
+
+* [Upload an image to a RESTful endpoint and return the URL](rest/upload-an-image-to-a-restful-endpoint-and-return-the-url.md)
+
 ## 其它 <a href="#others" id="others"></a>
 
 * [使用 API 建立 User](others/shi-yong-api-jian-li-user.md)
@@ -53,7 +57,3 @@
 ## 其它 UI 客製 <a href="#other-ui-custom" id="other-ui-custom"></a>
 
 * [在 Card Region 顯示多張圖片](other-ui-custom/card-region-multi-images.md)
-
-## RESTful Service <a href="#rest" id="rest"></a>
-
-* [Upload an image to a RESTful endpoint and return the URL](rest/upload-an-image-to-a-restful-endpoint-and-return-the-url.md)

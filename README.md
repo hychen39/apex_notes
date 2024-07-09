@@ -13,8 +13,8 @@ coverY: -6
 
 
 
-{% content-ref url="rest/upload-an-image-to-a-restful-endpoint-and-return-the-url.md" %}
-[upload-an-image-to-a-restful-endpoint-and-return-the-url.md](rest/upload-an-image-to-a-restful-endpoint-and-return-the-url.md)
+{% content-ref url="rest/upload-image.md" %}
+[upload-image.md](rest/upload-image.md)
 {% endcontent-ref %}
 
 ### 2024 Jun :tada::clap:

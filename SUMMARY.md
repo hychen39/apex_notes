@@ -45,7 +45,7 @@
 
 ## RESTful Service <a href="#rest" id="rest"></a>
 
-* [Upload an image to a RESTful endpoint and return the URL](rest/upload-an-image-to-a-restful-endpoint-and-return-the-url.md)
+* [Upload an image to a RESTful endpoint and return the URL](rest/upload-image.md)
 
 ## 其它 <a href="#others" id="others"></a>
 

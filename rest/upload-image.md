@@ -6,23 +6,23 @@ description: >-
 
 # Upload an image to a RESTful endpoint and return the URL
 
-## Use Case 
+## Use Case
 
 We want to upload an image to a RESTful endpoint and return the URL of the image.
 
 When uploading, we need to provide the following information in the request header:
 
-- filename: string
-- filetype: string
-- question_id: string
-- comment: string
+* filename: string
+* filetype: string
+* question\_id: string
+* comment: string
 
 In the request body, we need to provide the image file.
 
 The response will be a JSON object with the following fields:
 
-- message: string
-- url: string - the URL of the image
+* message: string
+* url: string - the URL of the image
 
 ## Concepts:
 
@@ -36,22 +36,21 @@ When authoring the POST handler, we need to specify the mapping between the para
 
 We have several cases:
 
-- URL Path parameters: the parameter is passed in the URL path with the syntax `:parameter_name`. For example, `project3/ques/img/content/:id`. 
-     - ORDS will automatically map the URL parameter to the bind variable as the same name.
-
-- Query parameter: the parameter is passed in the query string with the syntax `?parameter_name=value`. For example, `project3/ques/img/content?id=1`. 
-    - The query parameter is mapped automatically to the bind variable with the same name (`:id`). [1]
-    - Or, we can explicitly specify the mapping in the POST handler. The source type is URI for the mapping. [2]
+* URL Path parameters: the parameter is passed in the URL path with the syntax `:parameter_name`. For example, `project3/ques/img/content/:id`.
+  * ORDS will automatically map the URL parameter to the bind variable as the same name.
+* Query parameter: the parameter is passed in the query string with the syntax `?parameter_name=value`. For example, `project3/ques/img/content?id=1`.
+  * The query parameter is mapped automatically to the bind variable with the same name (`:id`). \[1]
+  * Or, we can explicitly specify the mapping in the POST handler. The source type is URI for the mapping. \[2]
 
 ![](img/24-07-09-09-37-42.png)
 
-- HTTP Header parameters: the parameter is passed in the request header. 
-     - We need to specify the mapping in the POST handler.
-     - The source type is `HTTP HEADER` for the mapping.
+* HTTP Header parameters: the parameter is passed in the request header.
+  * We need to specify the mapping in the POST handler.
+  * The source type is `HTTP HEADER` for the mapping.
 
 ### Special character `$`
 
-在回傳的欄位名稱前或者參數名稱前加上 `$`, ORDS 會為其產生一個 URL 連結。[3]
+在回傳的欄位名稱前或者參數名稱前加上 `$`, ORDS 會為其產生一個 URL 連結。\[3]
 
 例如在欄位名稱前加上 `$`：
 
@@ -63,13 +62,14 @@ We have several cases:
 
 ![](img/24-07-09-10-13-31.png)
 
-### Create HTTP response 
+### Create HTTP response
 
 有兩種方法可以回傳 HTTP response。
 
 The first method uses the `htp.p` or [`htp.print`](https://docs.oracle.com/en/database/oracle/oracle-database/19/arpls/HTP.html#GUID-E58CCF81-DAE0-482F-82BE-5A1500A7F3DF) procedure to output text directly to the HTTP response body.
 
 Example: Create the response header and download a file:
+
 ```sql
   sys.HTP.init;
   -- Create the response header
@@ -81,9 +81,9 @@ Example: Create the response header and download a file:
   sys.WPG_DOCLOAD.download_file(l_blob_content);
 ```
 
-See more in [4] and [5]. 
+See more in \[4] and \[5].
 
-If we don't want to create the response header and body by ourselves, the second way is to create the response parameters in the handler. 
+If we don't want to create the response header and body by ourselves, the second way is to create the response parameters in the handler.
 
 Create a parameter with the source type `RESPONSE`. Then, map the parameter to a bind variable in the PL/SQL code.
 
@@ -92,9 +92,12 @@ In the pl/sql, set a value to the bind variable. ORDS will automatically generat
 ![](img/24-07-09-11-19-10.png)
 
 For example, we create a message parameter with the source type `RESPONSE` and map it to the bind variable `msg`.
-![](img/24-07-09-11-20-50.png)
 
-We assign a value to the bind variable `msg` in the PL/SQL code:  
+&#x20;
+
+<figure><img src="img/24-07-09-11-20-50.png" alt=""><figcaption></figcaption></figure>
+
+We assign a value to the bind variable `msg` in the PL/SQL code:
 
 ![](img/24-07-09-11-21-48.png)
 
@@ -104,15 +107,16 @@ The response will be a JSON object with the field `message` and the value assign
 
 ### Implicit bind variables in REST API
 
-ORDS provides many implicit parameters (bind variables) used in REST Service handlers. [6] provides the complete list.
+ORDS provides many implicit parameters (bind variables) used in REST Service handlers. \[6] provides the complete list.
 
 Note that the implicit parameters are case-insensitive and have different access modes.
 
 Often used implicit parameters include:
-- `:body` - the request body with BLOB data type
-- `:body_text` - the request body with CLOB data type
-- `:content_type` - map the `Content-Type` header
-- `:status_code` - Specifies the HTTP status code for the request.
+
+* `:body` - the request body with BLOB data type
+* `:body_text` - the request body with CLOB data type
+* `:content_type` - map the `Content-Type` header
+* `:status_code` - Specifies the HTTP status code for the request.
 
 ## 實作
 
@@ -138,12 +142,14 @@ THE_COMMENT          VARCHAR2(4000 CHAR)
 Firstly, we create the REST module by the Oracle SQL Developer.
 
 Path: REST Data Services > Modules > New Module
-- Module Name: ques_img
-- URI Prefix: /ques/img
-- Publish: Check 
+
+* Module Name: ques\_img
+* URI Prefix: /ques/img
+* Publish: Check
 
 Secondly, add a template to the module:
-- URI Pattern: `upload`
+
+* URI Pattern: `upload`
 
 The complete URI for the template is `/ques/img/upload`.
 
@@ -153,7 +159,7 @@ Thirdly, add a POST handler to the template.
 
 ![](img/24-07-09-11-40-18.png)
 
-The handler contains four IN and two OUT parameters. The four IN parameters are about the uploading image are passed in the request header. The two OUT parameters are the JSON field in the JSON object for the response. 
+The handler contains four IN and two OUT parameters. The four IN parameters are about the uploading image are passed in the request header. The two OUT parameters are the JSON field in the JSON object for the response.
 
 Navigate to the `Parameters` tab in the handler to set these parameters and their mapping to the bind variables.
 
@@ -167,9 +173,9 @@ The first step is to get the image file from the request body. The image file is
 
 The second step is to insert the image file into the `bank_media` table. We use the `insert into` statement to insert the image file. The `RETURNING` clause returns the `id` of the inserted row. We save the `id` to the `l_image_id` local variable. Within the INSERT statement, we use the `:qid`, `:file_name`, `:file_type`, and `:the_comment` bind variables which comes from the request header parameters.
 
-Thirdly, we set the HTTP status code to 201 and the Location parameter to the URL of the image. 
+Thirdly, we set the HTTP status code to 201 and the Location parameter to the URL of the image.
 
-Finally, we set the response message in the `:msg` bind variable and the url to access the image in the `:location` bind variable. The two bind variables are mapped to the OUT response parameters in the handler. 
+Finally, we set the response message in the `:msg` bind variable and the url to access the image in the `:location` bind variable. The two bind variables are mapped to the OUT response parameters in the handler.
 
 ```sql
 declare
@@ -217,26 +223,22 @@ The response JSON object will be like this:
 
 ![](img/24-07-09-11-53-45.png)
 
-## Conclusion 
+## Conclusion
 
 The takeaway points from this article include:
-- The structure of the RESTful module, template, and handler.
-- Mapping between parameters and bind variables.
-  - types of parameters: URL path, query, and HTTP header.
-- The special character `$` to generate a URL link.
-- The implicit parameters in the REST API used in the handler.
-- Write a handler to accept the POST request, insert the image file into the database, and return the URL of the image.
 
-## References 
+* The structure of the RESTful module, template, and handler.
+* Mapping between parameters and bind variables.
+  * types of parameters: URL path, query, and HTTP header.
+* The special character `$` to generate a URL link.
+* The implicit parameters in the REST API used in the handler.
+* Write a handler to accept the POST request, insert the image file into the database, and return the URL of the image.
+
+## References
+
 1. [A Tale of Two Styles of URIs and Parameters w/ORDS](https://www.thatjeffsmith.com/archive/2017/03/a-tale-of-two-styles-of-uris-and-parameters-words/)
-   
 2. [REST API: Query Parameter values to a SQL WHERE IN (:list)](https://www.thatjeffsmith.com/archive/2023/11/rest-api-query-parameter-values-to-a-sql-where-in-list/)
-  
 3. [Generating Links in your Oracle REST API HTTPS Responses](https://www.thatjeffsmith.com/archive/2017/05/ords-restful-services-and-uri/)
-
 4. [Database Development Guide](https://docs.oracle.com/en/database/oracle/oracle-database/23/adfns/web-applications.html#GUID-5162BCA5-E622-4C6D-AD24-7D6FDAF10516)
-
-5. [Oracle REST Data Services (ORDS) : HTTP Headers (OWA_UTIL) and ORDS-Specific Bind Variables](https://oracle-base.com/articles/misc/oracle-rest-data-services-ords-http-headers-and-ords-specific-bind-variables#google_vignette)
-
+5. [Oracle REST Data Services (ORDS) : HTTP Headers (OWA\_UTIL) and ORDS-Specific Bind Variables](https://oracle-base.com/articles/misc/oracle-rest-data-services-ords-http-headers-and-ords-specific-bind-variables#google\_vignette)
 6. [3 Implicit Parameters, Developer's Guide](https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/23.1/orddg/implicit-parameters.html#GUID-E7716042-B012-4E44-9F4C-F8D3A1EDE01C)
-  

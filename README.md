@@ -9,9 +9,13 @@ coverY: -6
 
 ## 近期文章
 
+### 2024 Aug
+
+{% content-ref url="reports/ir-dynamic-links.md" %}
+[ir-dynamic-links.md](reports/ir-dynamic-links.md)
+{% endcontent-ref %}
+
 ### 2024 July
-
-
 
 {% content-ref url="rest/upload-image.md" %}
 [upload-image.md](rest/upload-image.md)

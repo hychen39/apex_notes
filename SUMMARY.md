@@ -44,6 +44,7 @@
 * [登入時切換不同的身份鑑別方式](security/switch\_authe\_scheme.md)
 * [😁 登入後，切換另一種身份鑑別方式](security/switch\_auth\_after\_login.md)
 * [自建 User 及 Role tables 進行身份鑑別與功能授權](security/custom-authe-autho.md)
+* [使用 Google Social Account 登入](security/login-google.md)
 
 ## RESTful Service <a href="#rest" id="rest"></a>
 

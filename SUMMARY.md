@@ -60,3 +60,4 @@
 ## 其它 UI 客製 <a href="#other-ui-custom" id="other-ui-custom"></a>
 
 * [在 Card Region 顯示多張圖片](other-ui-custom/card-region-multi-images.md)
+* [於載入頁面時，顯示通知訊息 5 秒後自動消失](other-ui-custom/show-notification.md)

@@ -1,22 +1,21 @@
 # 於載入頁面時，顯示通知訊息 5 秒後自動消失
 
-## 於載入頁面時，顯示通知訊息 5 秒後自動消失
 
 
 
-### User Story
+## 1. User Story
 
 ![](img/24-09-09-08-09-44.png)
 
-### 原理
+## 2. 原理
 
 1. 在 Oracle Apex 的 page 的 DOM 中新增一個元素, 用來顯示通知訊息。
 2. 於載入頁面時, 由 page/application process 輸出 JavaScript code, 要求 browser 執行 JavaScript code, 以顯示通知訊息。
 3. 使用 JQuery, 先選擇先前新增的元素, 再使用 JQuery 的方法 `show().delay(5000).fadeOut()` 來顯示通知訊息。
 
-### 實作步驟
+## 3. 實作步驟
 
-#### Step 1: 在 App 的 Navigation Tool Bar 中新增一個 Icon, 做為訊息通知的父元素
+### Step 1: 在 App 的 Navigation Tool Bar 中新增一個 Icon, 做為訊息通知的父元素
 
 ![](img/24-09-09-08-18-59.png)
 
@@ -24,7 +23,7 @@
 
 ![](img/24-09-09-08-22-27.png)
 
-#### Step 2: 設定傳訊息通知 CSS
+### Step 2: 設定傳訊息通知 CSS
 
 我們會在相對於父元素的某個位置, 顯示訊息通知。
 
@@ -50,7 +49,7 @@
 }
 ```
 
-#### Step 3: 將 CSS 加入到 App 的靜態檔案中, 並將其引入到 App 中
+### Step 3: 將 CSS 加入到 App 的靜態檔案中, 並將其引入到 App 中
 
 Path: Shared Components > Static Application Files > (B)Create File
 
@@ -80,7 +79,7 @@ Oracle Apex 會 minify CSS code, 以減少檔案大小。在 File Name 欄位下
 
 ![](img/24-09-09-10-36-45.png)
 
-#### Step 4: 設定新增「訊息通知」元素的 JavaScript code 及其它輔助 function
+### Step 4: 設定新增「訊息通知」元素的 JavaScript code 及其它輔助 function
 
 在頁面載入時, 會執行以下動作:
 
@@ -131,7 +130,7 @@ function showMessage(message) {
 
 ![](img/24-09-09-12-10-27.png)
 
-#### Step 5: 將 JavaScript code 加入到 App 的靜態檔案中, 並將其引入到 App 中
+### Step 5: 將 JavaScript code 加入到 App 的靜態檔案中, 並將其引入到 App 中
 
 此步驟的操作方式和 Step 3 類似。
 
@@ -147,7 +146,7 @@ function showMessage(message) {
 
 ![](img/24-09-09-10-41-21.png)
 
-#### Step 6: 觀察 custom js 及 css file 的載入順序。
+### Step 6: 觀察 custom js 及 css file 的載入順序。
 
 Custom CSS file 會在 Apex Page 中的 `<head>` 中引入
 
@@ -159,7 +158,7 @@ Custom JS file 會在 Apex Page 中的 `<body>` 的最後引入
 
 我們後續用 PL/SQL code 來輸出的 JavaScript code 會在 custom js file 之後載入。 如此, 我們才能正確的呼叫 `showMessage()` function。
 
-#### Step 7: 在 App 的 Page 中, 新增一個 Application Process, 用來輸出 JavaScript code
+### Step 7: 在 App 的 Page 中, 新增一個 Application Process, 用來輸出 JavaScript code
 
 我們會去 `test_orders` table 中, 查詢是否有狀態 `new` 的訂單。
 
@@ -228,11 +227,11 @@ end;
 
 ![](img/24-09-09-10-26-27.png)
 
-#### Step 8: 測試
+### Step 8: 測試
 
 登入 APP 後, 進到首頁或任何頁面, 若 `test_orders` table 中有狀態為 `new` 的訂單, 則會顯示訊息通知。
 
-### 顯示可點擊的訊息通知
+## 4. 顯示可點擊的訊息通知
 
 修改前述幾個地方可以讓「訊息通知」內含有可點擊的連結, 例如點擊後查看最新的一筆訂單。
 
@@ -334,7 +333,7 @@ end if;
 end;
 ```
 
-### 總結
+## 5. 總結
 
 * 透過 JavaScript code, 我們在 Navigation Tool Bar 的某個元素下，新增一個元素，用來顯示訊息通知。
 * 這些需要的 JavaScript code 和 CSS code, 上傳到 App 的靜態檔案中, 並引入到 App 中。

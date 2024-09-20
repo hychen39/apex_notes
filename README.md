@@ -9,7 +9,13 @@ coverY: -6
 
 ## 近期文章
 
+### 2024 Oct
+
 ### 2024 Sep
+
+{% content-ref url="rest/post-handler-pattern.md" %}
+[post-handler-pattern.md](rest/post-handler-pattern.md)
+{% endcontent-ref %}
 
 {% content-ref url="other-ui-custom/show-notification.md" %}
 [show-notification.md](other-ui-custom/show-notification.md)

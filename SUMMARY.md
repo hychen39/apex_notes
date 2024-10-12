@@ -15,6 +15,7 @@
 * [調整 Faceted Search 的 Facet 欄位及Classic Report 中圖片大小](reports/fine-tune-faceted-search.md)
 * [Search Page](reports/search-page.md)
 * [Report 的每一列顯示可點擊的按鈕](reports/ir-dynamic-links.md)
+* * [在 Interactive Report 中顯示圖片](reports/ir-display-image.md)
 
 ## 表單處理 <a href="#forms" id="forms"></a>
 

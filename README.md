@@ -9,6 +9,13 @@ coverY: -6
 
 ## 近期文章
 
+### 2024 Oct
+
+{% content-ref url="reports/ir-display-image.md" %}
+[ir-display-image.md](reports/ir-display-image.md)
+{% endcontent-ref %}
+
+
 ### 2024 Sep
 
 {% content-ref url="other-ui-custom/show-notification.md" %}

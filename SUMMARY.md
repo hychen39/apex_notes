@@ -50,6 +50,7 @@
 ## RESTful Service <a href="#rest" id="rest"></a>
 
 * [Upload an image to a RESTful endpoint and return the URL](rest/upload-image.md)
+* [Post handler pattern](rest/post-handler-pattern.md)
 
 ## 其它 <a href="#others" id="others"></a>
 

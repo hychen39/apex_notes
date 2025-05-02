@@ -9,6 +9,31 @@ coverY: -6
 
 ## 近期文章
 
+### 2025 May
+
+{% content-ref url="rest/enable-rest-service.md" %}
+[enable-rest-service.md](rest/enable-rest-service.md)
+{% endcontent-ref %}
+
+{% content-ref url="rest/oracle-ords-intro.md" %}
+[oracle-ords-intro.md](rest/oracle-ords-intro.md)
+{% endcontent-ref %}
+
+{% content-ref url="rest/handle-json-data.md" %}
+[handle-json-data.md](rest/handle-json-data.md)
+{% endcontent-ref %}
+
+{% content-ref url="rest/rest-post-pattern.md" %}
+[rest-post-pattern.md](rest/rest-post-pattern.md)
+{% endcontent-ref %}
+
+{% content-ref url="rest/rest-post-demo.md" %}
+[rest-post-demo.md](rest/rest-post-demo.md)
+{% endcontent-ref %}
+
+
+
+
 ### 2025 March
 
 {% content-ref url="import-export/parse-csv-file.md" %}

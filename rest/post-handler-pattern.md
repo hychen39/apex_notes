@@ -2,9 +2,13 @@
 description: The programming pattern for the REST POST handler in PL/SQL
 ---
 
+# Note 
+
+新版的 POST handler 的說明可參考 [示範: 處理 REST API POST 請求](rest/rest-post-demo.md)。
+
 # Post handler pattern
 
-```plsql
+```sql
 declare
 
 l_body_blob blob;
@@ -50,7 +54,6 @@ end if;
 --
 -- 
 
-
 :status_code := 200;
 :payload := l_response;
 :message := 'SUCCESS';
@@ -67,3 +70,5 @@ EXCEPTION
 
 end;
 ```
+
+

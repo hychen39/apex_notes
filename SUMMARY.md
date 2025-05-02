@@ -51,6 +51,11 @@
 
 * [Upload an image to a RESTful endpoint and return the URL](rest/upload-image.md)
 * [Post handler pattern](rest/post-handler-pattern.md)
+* [啟用 Apex 中的 REST 服務](rest/enable-rest-service.md)
+* [Oracle ORDS 介紹](rest/oracle-ords-intro.md)
+* [處理 JSON 格式的資料](rest/handle-json-data.md)
+* [RESTful Service 的 POST 請求處理範本](rest/rest-post-pattern.md)
+* [RESTful Service 的 POST 的範例](rest/rest-post-demo.md)
 
 ## 資料匯入與匯出 <a href="#import-export" id="import-export"></a>
 

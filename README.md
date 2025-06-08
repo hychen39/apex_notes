@@ -9,6 +9,12 @@ coverY: -6
 
 ## 近期文章
 
+### 2025 June
+
+{% content-ref url="insert-two-tables.md" %}
+[insert-two-tables.md](insert-two-tables.md)
+{% endcontent-ref %}
+
 ### 2025 May
 
 {% content-ref url="rest/enable-rest-service.md" %}
@@ -31,22 +37,17 @@ coverY: -6
 [rest-post-demo.md](rest/rest-post-demo.md)
 {% endcontent-ref %}
 
-
-
-
 ### 2025 March
 
 {% content-ref url="import-export/parse-csv-file.md" %}
 [parse-csv-file.md](import-export/parse-csv-file.md)
 {% endcontent-ref %}
 
-
 ### 2024 Oct
 
 {% content-ref url="reports/ir-display-image.md" %}
 [ir-display-image.md](reports/ir-display-image.md)
 {% endcontent-ref %}
-
 
 ### 2024 Sep
 
@@ -80,13 +81,13 @@ coverY: -6
 [upload-multiple-ima.md](forms/upload-multiple-ima.md)
 {% endcontent-ref %}
 
-### 2024 May&#x20;
+### 2024 May
 
 {% content-ref url="reports/fine-tune-faceted-search.md" %}
 [fine-tune-faceted-search.md](reports/fine-tune-faceted-search.md)
 {% endcontent-ref %}
 
-### 2024 April&#x20;
+### 2024 April
 
 {% content-ref url="other-ui-custom/card-region-multi-images.md" %}
 [card-region-multi-images.md](other-ui-custom/card-region-multi-images.md)
@@ -99,7 +100,7 @@ coverY: -6
 ### 2024 March
 
 {% content-ref url="forms/hide_show_fields_dynamic_action.md" %}
-[hide\_show\_fields\_dynamic\_action.md](forms/hide\_show\_fields\_dynamic\_action.md)
+[hide\_show\_fields\_dynamic\_action.md](forms/hide_show_fields_dynamic_action.md)
 {% endcontent-ref %}
 
 {% content-ref url="reports/cards-region.md" %}
@@ -107,19 +108,19 @@ coverY: -6
 {% endcontent-ref %}
 
 {% content-ref url="reports/faceted_search.md" %}
-[faceted\_search.md](reports/faceted\_search.md)
+[faceted\_search.md](reports/faceted_search.md)
 {% endcontent-ref %}
 
 ### 2024 February
 
 {% content-ref url="navi/navigation_menu.md" %}
-[navigation\_menu.md](navi/navigation\_menu.md)
+[navigation\_menu.md](navi/navigation_menu.md)
 {% endcontent-ref %}
 
 ### 2023 October
 
 {% content-ref url="security/switch_auth_after_login.md" %}
-[switch\_auth\_after\_login.md](security/switch\_auth\_after\_login.md)
+[switch\_auth\_after\_login.md](security/switch_auth_after_login.md)
 {% endcontent-ref %}
 
 ### 2023 September
@@ -132,8 +133,8 @@ coverY: -6
 
 [xiu-gai-bu-tong-yu-xi-xia-de-nei-jian-wen-zi-xun-xi.md](others/xiu-gai-bu-tong-yu-xi-xia-de-nei-jian-wen-zi-xun-xi.md "mention")
 
-[switch\_authe\_scheme.md](security/switch\_authe\_scheme.md "mention")
+[switch\_authe\_scheme.md](security/switch_authe_scheme.md "mention")
 
-[item\_validation.md](forms/item\_validation.md "mention")
+[item\_validation.md](forms/item_validation.md "mention")
 
 [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/hychen39)

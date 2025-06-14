@@ -11,6 +11,14 @@ coverY: -6
 
 ### 2025 June
 
+{% content-ref url="notifications/generate-page-url.md" %}
+[generate-page-url.md](notifications/generate-page-url.md)
+{% endcontent-ref %}
+
+{% content-ref url="notifications/email-page-url.md" %}
+[email-page-url.md](notifications/email-page-url.md)
+{% endcontent-ref %}
+
 {% content-ref url="forms/manage-uploaded-img-in-form.md" %}
 [manage-uploaded-img-in-form.md](forms/manage-uploaded-img-in-form.md)
 {% endcontent-ref %}
@@ -18,7 +26,6 @@ coverY: -6
 {% content-ref url="forms/insert-two-tables.md" %}
 [insert-two-tables.md](forms/insert-two-tables.md)
 {% endcontent-ref %}
-
 
 ### 2025 May
 

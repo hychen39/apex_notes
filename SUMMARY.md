@@ -63,6 +63,11 @@
 
 * [剖析 CSV 檔案](import-export/parse-csv-file.md)
 
+## 通知 <a href="#notifications" id="notifications"></a>
+
+* [使用程式產生 page url](notifications/generate-page-url.md)
+* [在 email 中提供 page url](notifications/email-page-url.md)
+
 ## 其它 <a href="#others" id="others"></a>
 
 * [使用 API 建立 User](others/shi-yong-api-jian-li-user.md)

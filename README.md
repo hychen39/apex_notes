@@ -15,6 +15,10 @@ coverY: -6
 [manage-uploaded-img-in-form.md](forms/manage-uploaded-img-in-form.md)
 {% endcontent-ref %}
 
+{% content-ref url="forms/insert-two-tables.md" %}
+[insert-two-tables.md](forms/insert-two-tables.md)
+{% endcontent-ref %}
+
 
 ### 2025 May
 

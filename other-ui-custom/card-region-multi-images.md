@@ -8,7 +8,7 @@ description: 使用 Carousel 的方式，在 Card Region 中顯示多張圖片
 
 我們想要在 Card Region 中以 Carousel 的方式顯示多張圖片。
 
-Moreaux [1] 提供了一個逐步指南，在 Oracle APEX card region 中添加圖片輪播。
+Moreaux \[1] 提供了一個逐步指南，在 Oracle APEX card region 中添加圖片輪播。
 
 但是，該指南使網路上的圖片的 URL。在這文件中，我們將使用表格中的 blob 欄位，而非網路上的其它圖片。
 
@@ -27,16 +27,16 @@ Moreaux [1] 提供了一個逐步指南，在 Oracle APEX card region 中添加�
 ![](img/24-04-30-14-41-03.png)
 
 之後設定該 Item 的 Settings 相關屬性:
-- Filename Column
-- MIMI Type Column
-- BLOB Last Updated Column 
+
+* Filename Column
+* MIMI Type Column
+* BLOB Last Updated Column
 
 填入表格上對應到上述屬性的欄位名稱。
 
 ![](img/24-04-30-14-42-05.png)
 
 之後，我們會在 `APEX_UTIL.GET_BLOB_FILE_SRC` 中使用到這個 Item 的名稱(`P3_PRODUCT_IMAGE`)。
-
 
 ### S2. 設定 Card Region 中的 SQL Query 做為資料來源
 
@@ -68,10 +68,10 @@ from product_image_urls pu
 group by pu.category;
 ```
 
-在上述的 SQL Query 中： 
+在上述的 SQL Query 中：
 
-- 我們使用了 `APEX_UTIL.GET_BLOB_FILE_SRC` 來取得圖片的 URL。
-- 因為一個 Card 中可能會有多張圖片，所以在 main query 中，我們使用 `listagg` 函數來將每個 category 的圖片 URL 串接成一個字串，並以 `|` 分隔。後續在 HTML Expression 中，我們會使用這個字串欄位來建立多個圖片 的URL，以便在輪播中顯示。參考 [2] 用到的技巧。
+* 我們使用了 `APEX_UTIL.GET_BLOB_FILE_SRC` 來取得圖片的 URL。
+* 因為一個 Card 中可能會有多張圖片，所以在 main query 中，我們使用 `listagg` 函數來將每個 category 的圖片 URL 串接成一個字串，並以 `|` 分隔。後續在 HTML Expression 中，我們會使用這個字串欄位來建立多個圖片 的URL，以便在輪播中顯示。參考 \[2] 用到的技巧。
 
 ### S3. 設定 Card Region 中的 Media 的 HTML 內容 及 Media 要套用的 CSS Class
 
@@ -84,7 +84,6 @@ group by pu.category;
 在 Media 中，設定 CSS Class 為 `carousel_media`。
 
 ![](img/24-04-29-22-04-46.png)
-
 
 在 HTML Expression 中，設定如下的 HTML 內容：
 
@@ -112,10 +111,9 @@ group by pu.category;
 
 第二個 div 中的 `carousel_dots` 是用來顯示輪播指示器的。 `data-num` 屬性用來標識圖片的索引
 
-
 ### S4. 設定 Card Region 中的 CSS Class
 
-在 Page > CSS > Inline 中新增以下 CSS 內容[1]：
+在 Page > CSS > Inline 中新增以下 CSS 內容\[1]：
 
 ```css
 .card-title {
@@ -170,7 +168,7 @@ group by pu.category;
 
 技術要求，當某個卡片進入畫面時，對應的輪播指示器要改變 icon class。
 
-使用 Intersection Observer API，可以監聽元素進入畫面的事件。範例參考 [2]。
+使用 Intersection Observer API，可以監聽元素進入畫面的事件。範例參考 \[2]。
 
 我們會建立一個觀察者(Observer), 並告訴它要監聽哪個元素.
 
@@ -179,15 +177,14 @@ group by pu.category;
 建立觀察者時，要傳入一個 callback function，及一個 options 物件。
 
 Options 物件可以設定以下屬性：
-- root: 觀察者的根節點。如果沒有設定，則預設為 viewport。
-- rootMargin: 根節點的邊界。可以設定為一個字串，例如 "10px 10px 10px 10px"，或是一個物件，例如 {top: 10, right: 10, bottom: 10, left: 10}。使用此屬性擴展或縮小 root 元素的 box 的範圍，以便提早或延遲觸發 intersection event。
-- threshold: 一個介於 0 到 1 之間的數字，表示觸發的交集比例。例如 0.5 表示監聽元素已顯示一半時，觸發 callback function。可用陣列表示多個觸發點，例如 [0, 0.25, 0.5, 0.75, 1]。
 
+* root: 觀察者的根節點。如果沒有設定，則預設為 viewport。
+* rootMargin: 根節點的邊界。可以設定為一個字串，例如 "10px 10px 10px 10px"，或是一個物件，例如 {top: 10, right: 10, bottom: 10, left: 10}。使用此屬性擴展或縮小 root 元素的 box 的範圍，以便提早或延遲觸發 intersection event。
+* threshold: 一個介於 0 到 1 之間的數字，表示觸發的交集比例。例如 0.5 表示監聽元素已顯示一半時，觸發 callback function。可用陣列表示多個觸發點，例如 \[0, 0.25, 0.5, 0.75, 1]。
 
-在 callback function 中，可以取得進入畫面的一或多個被監聽的元素(entries)，及觀察者(Observer)本身。
-在 callback function 中，對每個 entry 做處理，例如改變元素的樣式，如下程式碼所示：
+在 callback function 中，可以取得進入畫面的一或多個被監聽的元素(entries)，及觀察者(Observer)本身。 在 callback function 中，對每個 entry 做處理，例如改變元素的樣式，如下程式碼所示：
 
-```js 
+```js
 let callback = (entries, observer) => {
   entries.forEach((entry) => {
     // Each entry describes an intersection change for one observed
@@ -202,6 +199,7 @@ let callback = (entries, observer) => {
   });
 };
 ```
+
 總結來說，Intersection Observer API 的使用程序如下：
 
 1. 建立觀察者的選項及 callback function。
@@ -245,17 +243,17 @@ observer.observe(target);
 
 ### S5. 在 Card Region 中使用 Intersection Observer API 更新 Carousel Indicators
 
-參考 [1] 的步驟。
+參考 \[1] 的步驟。
 
-#### S5.1 增加 Dynamic Action 以建立 Intersection Observer 
+#### S5.1 增加 Dynamic Action 以建立 Intersection Observer
 
-在 Cards Region 中新增一個 Dynamic Action(DA), 當事件為 Page Change[Cards] 時，執行 JavaScript Code，以建立 Intersection Observer。
+在 Cards Region 中新增一個 Dynamic Action(DA), 當事件為 Page Change\[Cards] 時，執行 JavaScript Code，以建立 Intersection Observer。
 
 DA 的 `WHEN` 相關屬性如下：
 
 ![](img/24-04-29-21-22-41.png)
 
-接著，增加一個 True Action, 類型為 Execute JavaScript Code. 
+接著，增加一個 True Action, 類型為 Execute JavaScript Code.
 
 ![](img/24-04-29-21-23-51.png)
 
@@ -362,18 +360,17 @@ function intersectionCallback(entries) {
 
 ![](img/24-04-29-22-09-50.png)
 
-
 ## 使用 RESTful Web Service 取得圖片 url
 
-使用 RESTful Web Service 提供圖片下載。 
+使用 RESTful Web Service 提供圖片下載。
 
 因為，使用 `APEX_UTIL.GET_BLOB_FILE_SRC` 來取得圖片的 URL 會相依於某個 `Display Image` item。
 
 我們會在 `img` 標籤的 `src` 屬性中，改使用 RESTful Web Service 的 URL。
 
-### S1. Enable the REST service in the PROJECT3 schema [5].
+### S1. Enable the REST service in the PROJECT3 schema \[5].
 
-在 Schema 中啟用 RESTful Web Service。 
+在 Schema 中啟用 RESTful Web Service。
 
 啟用時，沒有使用自動授權，以利測試。
 
@@ -392,17 +389,18 @@ BEGIN
 END;
 ```
 
-### S2. Create a RESTful Web Service Module in the Apex. 
+### S2. Create a RESTful Web Service Module in the Apex.
 
 Path: SQL Workshop > RESTful Services 建立新的 RESTful Web Service Module。
 
-Click Modules > (B)[Create Module]
+Click Modules > (B)\[Create Module]
 
 ![](img/24-04-30-14-09-50.png)
 
 Enter:
-- Module Name: `img`
-- Base Path: `/img/`
+
+* Module Name: `img`
+* Base Path: `/img/`
 
 之後在 Full URL Path 中會顯示此 module 的完整 URL。
 
@@ -412,7 +410,7 @@ Enter:
 
 ### S3. Create a Resource Template in the RESTful Web Service Module.
 
-點選在 Module 下方的 (B)[Create Templates]。
+點選在 Module 下方的 (B)\[Create Templates]。
 
 ![](img/24-04-30-14-14-20.png)
 
@@ -426,13 +424,14 @@ Enter:
 
 ### S4. Create a Handler for the Resource URI Template.
 
-點選在 Resource URI Template 下方的 (B)[Create Handler]。
+點選在 Resource URI Template 下方的 (B)\[Create Handler]。
 
 ![](img/24-04-30-14-19-10.png)
 
 輸入以下資訊:
-- Method: `GET`
-- Source Type: Media Resource
+
+* Method: `GET`
+* Source Type: Media Resource
 
 ![](img/24-04-30-14-20-03.png)
 
@@ -446,10 +445,10 @@ where product_id = :id
 
 其中：
 
-- 若 Source Type 為 Media Resource, Query 中的第一個 column 代表 MIME Type, 第二個 column 代表圖片的 binary data。
-- `:id`: 為 URI Template 中的路徑參數。
+* 若 Source Type 為 Media Resource, Query 中的第一個 column 代表 MIME Type, 第二個 column 代表圖片的 binary data。
+* `:id`: 為 URI Template 中的路徑參數。
 
-完後按 (B)[Apply Changes]。
+完後按 (B)\[Apply Changes]。
 
 ### S5. Test the RESTful Web Service.
 
@@ -482,12 +481,12 @@ group by pu.category;
 
 ## References
 
-[1] [Moreaux, L., 2023. Step-by-Step Guide for Adding an Image Carousel to the Oracle APEX Card Region](https://lmoreaux.hashnode.dev/oracle-apex-card-image-carousel)
+\[1] [Moreaux, L., 2023. Step-by-Step Guide for Adding an Image Carousel to the Oracle APEX Card Region](https://lmoreaux.hashnode.dev/oracle-apex-card-image-carousel)
 
-[2] [超好用的 Web API - Intersection Observer](https://jim1105.coderbridge.io/2022/07/30/intersection-observer/)
+\[2] [超好用的 Web API - Intersection Observer](https://jim1105.coderbridge.io/2022/07/30/intersection-observer/)
 
-[3] [Intersection Observer API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+\[3] [Intersection Observer API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 
-[4] [Azmi, A., 2022. Get Picture url which stored as BLOB & show it in Oracle APEX](https://www.linkedin.com/pulse/get-picture-url-stored-blob-show-oracle-apex-abdullah-azmi/)
+\[4] [Azmi, A., 2022. Get Picture url which stored as BLOB & show it in Oracle APEX](https://www.linkedin.com/pulse/get-picture-url-stored-blob-show-oracle-apex-abdullah-azmi/)
 
-[5] [Oracle REST Data Services (ORDS) : Using SQL Developer](https://oracle-base.com/articles/misc/oracle-rest-data-services-ords-using-sql-developer)
+\[5] [Oracle REST Data Services (ORDS) : Using SQL Developer](https://oracle-base.com/articles/misc/oracle-rest-data-services-ords-using-sql-developer)

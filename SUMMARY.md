@@ -29,6 +29,7 @@
 * [表單欄位檢查: 時間最多 2 小時](forms/item\_validation.md)
 * [Date Picker 限制可選擇的日期](forms/date-picker-select-specific-days-only.md)
 * [一次上傳多張圖片](forms/upload-multiple-ima.md)
+* [在 IR 中顯示上傳的圖片並提供刪除連結](forms/manage-uploaded-img-in-form.md)
 
 ## 值清單 (List of Values, LOV) <a href="#lov" id="lov"></a>
 

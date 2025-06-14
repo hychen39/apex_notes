@@ -9,6 +9,13 @@ coverY: -6
 
 ## 近期文章
 
+### 2025 June
+
+{% content-ref url="forms/manage-uploaded-img-in-form.md" %}
+[manage-uploaded-img-in-form.md](forms/manage-uploaded-img-in-form.md)
+{% endcontent-ref %}
+
+
 ### 2025 May
 
 {% content-ref url="rest/enable-rest-service.md" %}

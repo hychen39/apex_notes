@@ -1,6 +1,6 @@
 # oracle apex 處理多對多關係的建立
 
-## 任務
+### 任務
 
 一個志工(volunteer)可以參加多個活動(event). volunteer 和 event 之間是多對多的數量關係。
 
@@ -10,8 +10,8 @@
 
 資料表間的關係如下:
 
-<figure><img src=".gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
-## Apex 的設定
+### Apex 的設定
 
 {% embed url="https://www.youtube.com/watch?v=9FFrNOuW1GY" %}

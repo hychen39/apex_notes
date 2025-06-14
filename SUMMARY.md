@@ -4,13 +4,13 @@
 
 ## 導覽 <a href="#navi" id="navi"></a>
 
-* [導覽列 Navigation Menu 的設定](navi/navigation\_menu.md)
+* [導覽列 Navigation Menu 的設定](navi/navigation_menu.md)
 * [Cards List 導覽](navi/card-list-nav.md)
 * [修改 Card List 的 ICON](navi/change-icons.md)
 
 ## 報表 <a href="#reports" id="reports"></a>
 
-* [Faceted Search 分面搜尋](reports/faceted\_search.md)
+* [Faceted Search 分面搜尋](reports/faceted_search.md)
 * [圖卡顯示搜㝷結果](reports/cards-region.md)
 * [調整 Faceted Search 的 Facet 欄位及Classic Report 中圖片大小](reports/fine-tune-faceted-search.md)
 * [Search Page](reports/search-page.md)
@@ -19,25 +19,24 @@
 
 ## 表單處理 <a href="#forms" id="forms"></a>
 
-* [依選項值動態的顯示或隱藏欄位](forms/hide\_show\_fields\_dynamic\_action.md)
+* [依選項值動態的顯示或隱藏欄位](forms/hide_show_fields_dynamic_action.md)
 * [載入頁面時，使用其它頁面的值初始化表單欄位](forms/zai-ru-ye-mian-shi-shi-yong-qi-ta-ye-mian-de-zhi-chu-shi-hua-biao-dan-lan-wei.md)
 * [將表單資料寫入資料庫](forms/jiang-biao-dan-zi-liao-xie-ru-zi-liao-ku.md)
 * [使用另一個頁面的 item value](forms/shi-yong-ling-yi-ge-ye-mian-de-item-value.md)
 * [提交頁面後，轉跳其它頁面](forms/ti-jiao-ye-mian-hou-zhuan-tiao-qi-ta-ye-mian.md)
 * [按下按鈕後, 顯示確認對話框](forms/an-xia-an-niu-hou-xian-shi-que-ren-dui-hua-kuang.md)
-* [讓 Display Only Item 顯示 LOV 的 Display Value](forms/display\_only\_item\_shows\_lov\_display\_value.md)
-* [表單欄位檢查: 時間最多 2 小時](forms/item\_validation.md)
+* [讓 Display Only Item 顯示 LOV 的 Display Value](forms/display_only_item_shows_lov_display_value.md)
+* [表單欄位檢查: 時間最多 2 小時](forms/item_validation.md)
 * [Date Picker 限制可選擇的日期](forms/date-picker-select-specific-days-only.md)
 * [一次上傳多張圖片](forms/upload-multiple-ima.md)
-* [oracle apex 處理多對多關係的建立](insert-two-tables.md)
+* [oracle apex 處理多對多關係的建立](forms/insert-two-tables.md)
 * [在 IR 中顯示上傳的圖片並提供刪除連結](forms/manage-uploaded-img-in-form.md)
-
 
 ## 值清單 (List of Values, LOV) <a href="#lov" id="lov"></a>
 
 * [值清單 (List of Value)元件介紹](lov/zhi-qing-dan-list-of-value-yuan-jian-jie-shao.md)
 * [建立一個 Popup LOV 元件](lov/jian-li-yi-ge-popup-lov-yuan-jian.md)
-* [串接 LOV](lov/cascade\_lov.md)
+* [串接 LOV](lov/cascade_lov.md)
 
 ## Template, Layout and CSS <a href="#templates" id="templates"></a>
 
@@ -45,8 +44,8 @@
 
 ## 安全、身份鑑別與授權 <a href="#security" id="security"></a>
 
-* [登入時切換不同的身份鑑別方式](security/switch\_authe\_scheme.md)
-* [😁 登入後，切換另一種身份鑑別方式](security/switch\_auth\_after\_login.md)
+* [登入時切換不同的身份鑑別方式](security/switch_authe_scheme.md)
+* [😁 登入後，切換另一種身份鑑別方式](security/switch_auth_after_login.md)
 * [自建 User 及 Role tables 進行身份鑑別與功能授權](security/custom-authe-autho.md)
 * [使用 Google Social Account 登入](security/login-google.md)
 

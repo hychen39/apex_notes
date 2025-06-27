@@ -58,6 +58,7 @@
 * [處理 JSON 格式的資料](rest/handle-json-data.md)
 * [RESTful Service 的 POST 請求處理範本](rest/rest-post-pattern.md)
 * [RESTful Service 的 POST 的範例](rest/rest-post-demo.md)
+* [HTTP GET 取得資料](rest/get-op.md)
 
 ## 資料匯入與匯出 <a href="#import-export" id="import-export"></a>
 

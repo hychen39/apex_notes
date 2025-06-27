@@ -27,6 +27,10 @@ coverY: -6
 [insert-two-tables.md](forms/insert-two-tables.md)
 {% endcontent-ref %}
 
+{% content-ref url="rest/get-op.md" %}
+[get-op.md](rest/get-op.md)
+{% endcontent-ref %}
+
 ### 2025 May
 
 {% content-ref url="rest/enable-rest-service.md" %}

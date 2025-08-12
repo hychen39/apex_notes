@@ -9,6 +9,12 @@ coverY: -6
 
 ## 近期文章
 
+### 2025 Aug
+
+{% content-ref url="reports/facet-value-display.md" %}
+[facet-value-display.md](reports/facet-value-display.md)
+{% endcontent-ref %}
+
 ### 2025 June
 
 {% content-ref url="notifications/generate-page-url.md" %}

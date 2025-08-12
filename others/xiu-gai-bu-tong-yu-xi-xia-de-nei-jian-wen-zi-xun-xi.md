@@ -8,7 +8,7 @@ description: 內建文字訊息只有提供英文訊息。當使用非英文語�
 
 當違反必要欄位驗證規則時，期望顯示中文的錯誤訊息:
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 ## 原理
 

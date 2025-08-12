@@ -4,7 +4,7 @@ description: >-
   Admin，所以需使用 Apex Account auth 鑑別身份。
 ---
 
-# 😁 登入後，切換另一種身份鑑別方式
+# 登入後，切換另一種身份鑑別方式
 
 ## User Story
 

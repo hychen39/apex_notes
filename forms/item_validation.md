@@ -31,7 +31,7 @@ description: 有開始和結束時間兩個欄位。這兩個欄位決定的時�
 
 ## 資料集準備
 
-參考 [串接 LOV](../lov/cascade\_lov.md#zi-liao-ji-zhun-bei)&#x20;
+參考 [串接 LOV](../lov/cascade_lov.md#zi-liao-ji-zhun-bei)&#x20;
 
 ## 步驟
 
@@ -41,7 +41,7 @@ S1 在表單上建立開始與結束時間 2 個 LOV 欄位。
 
 S2 這兩個 LOV 欄位的 List of Values 的來源為 Shared Component.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 HY\_PERIOD\_LIST 內的 Query 如下:
 

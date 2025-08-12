@@ -36,5 +36,5 @@ Step 5. 執行，便可看到 Popup LOV
 
 Step 6. 預設為 inline 顯示清單值。若想使用強制式對話框(Modal Dialog), 設定 (P)Settings > Displays 屬性。
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 

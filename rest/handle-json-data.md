@@ -2,16 +2,16 @@
 description: 介紹如何處理 JSON Object，使用 Oracle 的 JSON_TABLE 函數解析 JSON 資料並將其轉換為關聯式資料表格式。
 ---
 
-# 處理 JSON Object 的方式
+# 處理 JSON 格式的資料
 
 ## 概述
 
-客戶端的 POST 請求會傳送 JSON Object 到後端. 
+客戶端的 POST 請求會傳送 JSON Object 到後端.\
 後端需要解析 JSON Object, 以便進行後續的處理, 例如新增資料到資料表中。
 
 Oracle 提供了 `JSON_TABLE` 函數來解析 JSON Object, 將其轉換為關聯式資料表的格式, 可做為 FROM 子句的資料來源。
 
-## 使用 JSON_TABLE 函數解析 JSON Object
+## 使用 JSON\_TABLE 函數解析 JSON Object
 
 以下範例展示如何使用 `JSON_TABLE` 函數解析 JSON Object，並將其內容存入 PL/SQL 的記錄變數中。
 
@@ -66,13 +66,13 @@ END;
 
 1. **JSON Object 定義**: 使用 `CLOB` 型別定義 JSON 資料。
 2. **記錄型別定義**: 使用 `RECORD` 型別定義資料結構。
-3. **JSON_TABLE 函數**: 
-   - `l_data` 是 JSON 資料來源。
-   - `$` 表示 JSON 的根路徑。
-   - `COLUMNS` 子句定義了每個欄位的名稱、型別及其對應的 JSON 路徑。
+3. **JSON\_TABLE 函數**:
+   * `l_data` 是 JSON 資料來源。
+   * `$` 表示 JSON 的根路徑。
+   * `COLUMNS` 子句定義了每個欄位的名稱、型別及其對應的 JSON 路徑。
 4. **輸出結果**: 使用 `DBMS_OUTPUT.PUT_LINE` 輸出解析後的資料。
 
-## JSON_TABLE() 的語法
+## JSON\_TABLE() 的語法
 
 基本語法：
 
@@ -88,14 +88,15 @@ JSON_TABLE(
 ```
 
 ### 語法說明
+
 1. **`json_source`**: JSON 資料來源，可以是 CLOB、BLOB 或 VARCHAR2。
 2. **`json_path`**: JSON 路徑，用於指定要解析的 JSON 節點，通常以 `$` 表示根路徑。
 3. **`COLUMNS` 子句**: 定義輸出的欄位，包括：
-   - **`column_name`**: 欄位名稱。
-   - **`data_type`**: 欄位的資料型別，例如 `VARCHAR2`、`NUMBER` 等。
-   - **`PATH 'json_path'`**: 指定欄位對應的 JSON 路徑。
-   - **`DEFAULT expr`**: 指定欄位的預設值（可選）。
-   - **`ERROR ON ERROR | NULL ON ERROR`**: 指定當解析失敗時的行為（可選）。
+   * **`column_name`**: 欄位名稱。
+   * **`data_type`**: 欄位的資料型別，例如 `VARCHAR2`、`NUMBER` 等。
+   * **`PATH 'json_path'`**: 指定欄位對應的 JSON 路徑。
+   * **`DEFAULT expr`**: 指定欄位的預設值（可選）。
+   * **`ERROR ON ERROR | NULL ON ERROR`**: 指定當解析失敗時的行為（可選）。
 
 ### 範例
 
@@ -113,12 +114,12 @@ FROM JSON_TABLE(
 
 此範例將 JSON 資料解析為兩個欄位：`name` 和 `age`，並將其轉換為關聯式資料表格式。
 
-
 ## 將 JSON Object Insert 到資料表中
 
 使用 INSERT SELECT 可直接將 JSON Object 插入到資料表中。
 
 語法:
+
 ```sql
 INSERT INTO your_table (column1, column2, ...)
 SELECT column1, column2, ...
@@ -132,8 +133,8 @@ FROM JSON_TABLE(
 );
 ```
 
-將上述的例子改寫成 INSERT SELECT。
-假設目的表格 txn_table 已經存在，並且有對應的欄位。
+將上述的例子改寫成 INSERT SELECT。\
+假設目的表格 txn\_table 已經存在，並且有對應的欄位。
 
 ```sql
 DECLARE
@@ -171,4 +172,4 @@ end;
 
 ## 參考資料
 
-- [JSON_TABLE, SQL Language Reference, R23](https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/JSON_TABLE.html)
+* [JSON\_TABLE, SQL Language Reference, R23](https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/JSON_TABLE.html)

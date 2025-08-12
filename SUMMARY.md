@@ -11,6 +11,7 @@
 ## 報表 <a href="#reports" id="reports"></a>
 
 * [Faceted Search 分面搜尋](reports/faceted_search.md)
+* [設定 facet 中顯示不重覆的選項值](reports/facet-value-display.md)
 * [圖卡顯示搜㝷結果](reports/cards-region.md)
 * [調整 Faceted Search 的 Facet 欄位及Classic Report 中圖片大小](reports/fine-tune-faceted-search.md)
 * [Search Page](reports/search-page.md)
@@ -45,7 +46,7 @@
 ## 安全、身份鑑別與授權 <a href="#security" id="security"></a>
 
 * [登入時切換不同的身份鑑別方式](security/switch_authe_scheme.md)
-* [😁 登入後，切換另一種身份鑑別方式](security/switch_auth_after_login.md)
+* [登入後，切換另一種身份鑑別方式](security/switch_auth_after_login.md)
 * [自建 User 及 Role tables 進行身份鑑別與功能授權](security/custom-authe-autho.md)
 * [使用 Google Social Account 登入](security/login-google.md)
 

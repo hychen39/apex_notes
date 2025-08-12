@@ -21,7 +21,8 @@
 
 ## 表單處理 <a href="#forms" id="forms"></a>
 
-* [依選項值動態的顯示或隱藏欄位](forms/hide_show_fields_dynamic_action.md)
+* [依選項值動態的顯示或隱藏欄位 \[DA\]](forms/hide_show_fields_dynamic_action.md)
+* [依選項值 擇一顯示某個欄位 \[DA\]](forms/display_one_da.md)
 * [載入頁面時，使用其它頁面的值初始化表單欄位](forms/zai-ru-ye-mian-shi-shi-yong-qi-ta-ye-mian-de-zhi-chu-shi-hua-biao-dan-lan-wei.md)
 * [將表單資料寫入資料庫](forms/jiang-biao-dan-zi-liao-xie-ru-zi-liao-ku.md)
 * [使用另一個頁面的 item value](forms/shi-yong-ling-yi-ge-ye-mian-de-item-value.md)

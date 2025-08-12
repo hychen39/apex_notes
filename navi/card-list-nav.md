@@ -36,7 +36,7 @@ Step 4. 設定 Template Options.
 * Apply Template Colors: check
 * Icons: Display Icons
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 Step 5. 儲存頁面，並執行。即可完成
 

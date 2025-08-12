@@ -15,6 +15,10 @@ coverY: -6
 [facet-value-display.md](reports/facet-value-display.md)
 {% endcontent-ref %}
 
+{% content-ref url="reports/card-action-button.md" %}
+[card-action-button.md](reports/card-action-button.md)
+{% endcontent-ref %}
+
 ### 2025 June
 
 {% content-ref url="notifications/generate-page-url.md" %}

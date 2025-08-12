@@ -20,7 +20,7 @@ coverY: -166
 
 * 在 Chart Region 的 Attributes 中可以選擇圖形的型態，例如 bar, line 等。
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 * 可在以 Legend 屬性區中設定是否顯示圖例(Legend)
 

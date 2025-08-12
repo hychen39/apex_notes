@@ -12,7 +12,8 @@
 
 * [Faceted Search 分面搜尋](reports/faceted_search.md)
 * [設定 facet 中顯示不重覆的選項值](reports/facet-value-display.md)
-* [圖卡顯示搜㝷結果](reports/cards-region.md)
+* [圖卡(Card Region)顯示搜㝷結果](reports/cards-region.md)
+* [在圖卡(Card)上加上 Action Button](reports/card-action-button.md)
 * [調整 Faceted Search 的 Facet 欄位及Classic Report 中圖片大小](reports/fine-tune-faceted-search.md)
 * [Search Page](reports/search-page.md)
 * [Report 的每一列顯示可點擊的按鈕](reports/ir-dynamic-links.md)

@@ -15,7 +15,7 @@ Step 1. 找到要修改的 List Region
 
 Step 2. 在 List Region 的 Source > List 屬性下，找到所使用的清單名稱。List 是一種 Shared Component.&#x20;
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1).png>)
 
 Step 3. 點選屬性右方的按鈕(>)，再點選 (B)\[Edit Component]，編輯清單內容
 

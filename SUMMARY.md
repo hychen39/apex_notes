@@ -8,16 +8,16 @@
 * [Cards List 導覽](navi/card-list-nav.md)
 * [修改 Card List 的 ICON](navi/change-icons.md)
 
-## 報表 <a href="#reports" id="reports"></a>
+## 資料顯示 <a href="#reports" id="reports"></a>
 
-* [Faceted Search 分面搜尋](reports/faceted_search.md)
-* [設定 facet 中顯示不重覆的選項值](reports/facet-value-display.md)
-* [圖卡(Card Region)顯示搜㝷結果](reports/cards-region.md)
-* [在圖卡(Card)上加上 Action Button](reports/card-action-button.md)
-* [調整 Faceted Search 的 Facet 欄位及Classic Report 中圖片大小](reports/fine-tune-faceted-search.md)
-* [Search Page](reports/search-page.md)
-* [Report 的每一列顯示可點擊的按鈕](reports/ir-dynamic-links.md)
-* [在 Interactive Report 中顯示圖片](reports/ir-display-image.md)
+* [Faceted Search 分面搜尋 \[Faceted Search\]](reports/faceted_search.md)
+* [設定 facet 中顯示不重覆的選項值 \[Facet Search\]](reports/facet-value-display.md)
+* [調整 Faceted Search 的 Facet 欄位及Classic Report 中圖片大小 \[Faceted Search\]](reports/fine-tune-faceted-search.md)
+* [圖卡顯示搜㝷結果 \[Card Region\]](reports/cards-region.md)
+* [在圖卡上加上 Action Button \[Card Region\]](reports/card-action-button.md)
+* [Search Page 顯示圖片及自訂轉跳連結 \[Search Page\]](reports/search-page.md)
+* [Report 的每一列顯示可點擊的按鈕 \[Report\]](reports/ir-dynamic-links.md)
+* [在 Interactive Report 中顯示圖片 \[Report\]](reports/ir-display-image.md)
 
 ## 表單處理 <a href="#forms" id="forms"></a>
 

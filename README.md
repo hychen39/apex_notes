@@ -11,6 +11,10 @@ coverY: -6
 
 ### 2025 Aug
 
+{% content-ref url="forms/display_one_da.md" %}
+[display\_one\_da.md](forms/display_one_da.md)
+{% endcontent-ref %}
+
 {% content-ref url="reports/facet-value-display.md" %}
 [facet-value-display.md](reports/facet-value-display.md)
 {% endcontent-ref %}
